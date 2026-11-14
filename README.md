@@ -1,6 +1,6 @@
 # RegionCovOpt
 
-Research code and complete experimental records for **RegionCovOpt: An Integrated Metaheuristic Optimizer for Generic Robotic Motion Planning**, by **Bai Li**.
+Research code and complete experimental records for **RegionCovOpt: A Metaheuristic Optimizer with Integrated Search Strengths for Generic Robotic Motion Planning**, by **Bai Li**.
 
 This repository accompanies a research manuscript for Engineering Applications of Artificial Intelligence. It is not a statement of acceptance or publication.
 

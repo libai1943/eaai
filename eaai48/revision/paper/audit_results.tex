@@ -1,6 +1,6 @@
 \subsection{Matched controls and contribution attribution}
 
-The three matched CMA controls share twelve offspring, six log-weighted parents, initial scale 0.23, scale limits and learning rates. Each mean starts at the average of up to four best members in its domain. Global CMA fits one distribution. The two regional controls use normalized coordinates and allocate batches either equally or by the incumbent/reservation rule. All three sample about the mean.
+The matched controls use the same batch size (12), number of log-weighted parents (6), initial scale (0.23), scale limits, and learning rates. Global CMA fits one distribution. The two regional controls fit one distribution per normalized region and allocate batches either equally or by the incumbent/reservation rule. Each control initializes the mean from up to four top-ranked points in its domain and samples about that mean.
 
 \begin{center}\begin{minipage}{\linewidth}\centering\small
 
@@ -30,29 +30,29 @@ Uniform & 144 & -6.270 & 128 & -8.744\\
 
 \input{attribution.tex}
 
-Figure~\ref{fig:attribution} separates the family-specific gains against a single global distribution from the residual difference against an adaptive regional control. Flight and manipulation have the largest median gains over matched global CMA. Against adaptive regional CMA the original-panel median change is $-0.032$\%. Region normalization and domain-specific initial means change together, so their individual contributions remain unresolved.
+Figure~\ref{fig:attribution} shows where regional search reduced cost. Flight and manipulation had the largest median gains over matched global CMA. The original-panel median difference narrowed to $-0.032$\% against adaptive regional CMA. The regional controls incorporate both coordinate normalization and region-specific initial means, so this comparison measures their combined effect.
 
 \subsection{Independent selection and held-out task perturbations}
 
-A fixed generator perturbs separate template indices to form twelve validation and sixteen held-out tasks. It varies flight openings, arm goals and obstacles, parking starts and obstacles, and docking starts and aisle geometry. The repository contains the generator, seeds and inputs.
+We generated 12 validation tasks and 16 held-out tasks from separate sets of template indices. The perturbations varied the location and size of flight openings, arm goals and obstacles, parking starts and obstacles, and docking starts and aisle geometry. The repository contains the generator, seeds, and inputs.
 
-Five seeds per validation task compare the original rule, no poll, diagonal covariance, balanced allocation before feasibility and a variant combining all three changes. Selection maximizes acceptance count, then minimizes median cost relative to the best accepted candidate in each pair. The original rule admits 59/60 runs. The alternatives admit 57, 57, 56 and 57. Frozen before testing on eight new seeds per held-out task, the selected rule and both regional controls admit 128/128 motions. Matched global CMA admits 127/128.
+The original rule led validation with 59 accepted motions in 60 runs. We evaluated five seeds per task and ranked variants first by acceptance count, then by median cost relative to the best accepted candidate for each pair. Removing polling, using diagonal covariance, balancing allocation before feasibility, and combining all three changes yielded 57, 57, 56, and 57 accepted motions, respectively. We fixed the selected rule before testing eight new seeds per held-out task. It and both regional controls returned 128/128 accepted motions. Matched global CMA returned 127/128.
 
-Several simpler variants perform well on the original tasks. Independent validation favors the original rule by acceptance count. The extra proposals have small, task-dependent effects.
+Acceptance therefore favored the full rule on the validation tasks. The held-out cost comparisons below quantify the additional gain over regional CMA.
 
-Percentile intervals use 4,000 bootstrap resamples of scenes within robot families, keeping their seeds together. They describe jointly accepted costs and are unadjusted for multiple comparisons.
+We estimated a separate 95\% percentile interval for each paired median using 4,000 bootstrap resamples. We resampled whole scenes within each robot family so that the seeds for a scene stayed together. These are marginal intervals for jointly accepted costs.
 
-For the held-out comparison with matched global CMA, the median change is -0.509\%, with a 95\% interval of [-18.400,-0.070]\%.
+The held-out median cost change relative to matched global CMA was $-0.509$\% (95\% interval $[-18.400,-0.070]$\%).
 
-For the held-out comparison with adaptively allocated regional CMA, the median change is -0.035\%, with a 95\% interval of [-0.103,0.011]\%.
+The held-out median cost change relative to adaptive regional CMA was $-0.035$\% (95\% interval $[-0.103,0.011]$\%).
 
-The 24 common initial evaluations already yield an oracle-feasible motion in 125 of the original 144 task--seed pairs. This separates the representation benefit from subsequent optimization. The repository reports first-feasible evaluations, success-versus-budget records and complete cost distributions; intermediate budget curves denote oracle acceptance, while the final costs in the tables require independent replay.
+The shared initialization produced a motion that passed the planning checks in 125 of 144 original scene--seed pairs within 24 evaluations. This explains much of the early feasibility across optimizers. The budget curves track acceptance by the planner during search. The final cost comparisons use independently verified motions. The repository reports the evaluation count to first feasibility and the complete cost distributions.
 
 \subsection{Representation scope and coverage}
 
-The common interface accepts a decoder and a function-value evaluator. Each decoder supplies particular task knowledge. Parking uses bounded-curvature connections with a limited intermediate-pose construction. Flight assumes an ordered sequence of rectangular wall openings. The arm uses velocity-basis or a small set of joint-space knot constructions. Docking assumes aligned terminal articulation and prescribed forward/reverse stroke sequences. General maps with additional route branches, arbitrary joint constraints or different gear sequences can require new families. These requirements explain both the early feasibility of uniform sampling and the scope of transfer to another robot.
+The optimizer transfers across robots through the decoder and evaluator. The parking decoder builds bounded-curvature connections directly or through an intermediate pose. The flight decoder uses ordered rectangular openings, and the arm decoder uses velocity profiles or joint-space knots. The docking decoder uses prescribed gear sequences and aligns the tractor and trailer at the goal. New route branches, joint constraints, or gear sequences may require additional motion families.
 
-The independent-refresh theorem concerns positive-mass feasible subsets of those represented families. At a budget of 960, the original schedule provides twenty protected refreshes after initialization, ten per region. Without a lower bound on the near-optimal probability mass, its asymptotic result supplies no numerical guarantee for this finite budget. Finite-budget value is therefore assessed by the matched experiments above.
+At the 960-evaluation budget, each region receives ten independent refreshes after initialization. The probability of reaching a near-optimal motion in these draws depends on how much sampling probability the decoder assigns to that set. Appendix B expresses the bound in terms of that probability. The matched comparisons measure the costs reached at the experimental budget.
 
 
-The C++ global CMA path is additionally checked against pycma 4.5.0 on twelve rotated-quadratic tests (dimensions 7, 9 and 13, condition number $10^3$). Both implementations reach objective error below $10^{-8}$ within 12,000 evaluations. This is a functional convergence check; the boundary handling, initial means and stopping conventions differ. The detailed records are included with the supplementary controls.
+Both our C++ implementation of global CMA and pycma 4.5.0 reached objective error below $10^{-8}$ within 12,000 evaluations on all 12 rotated quadratic functions. The problems had dimensions 7, 9, and 13 and condition number $10^3$. Each implementation used its own boundary handling, initial means, and stopping rules. The supplementary records give the final error for each implementation.

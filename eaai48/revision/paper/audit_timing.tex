@@ -1,10 +1,10 @@
-\subsection{Planning and independently verified delivery time}
+\subsection{Planning and verification time}
 
-The extended timing test uses cases 02, 05 and 09 of each family, four search rules and three interleaved repeats per rule, giving 144 timed runs on one logical processor. Planning time includes process startup, decoding, scoring and all in-process replay. Independent acceptance is measured separately after reading the returned motion, with task data already loaded. Total wall time is their sum. The table gives median and 90th-percentile wall seconds for RegionCovOpt across the nine runs of each robot; the repository gives all controls and each case's best-of-three process CPU time.
+We timed four search rules on cases 02, 05, and 09 in each robot family, interleaving three repeats per rule on one logical processor (144 runs). Planning time includes process startup, decoding, scoring, and replay inside the planner. We timed independent verification after loading the task data and reading the returned motion. Total wall time adds the two measurements. The table gives the median and 90th percentile for the nine RegionCovOpt runs per family. The repository also gives the control timings and the minimum CPU time per case.
 
 \begin{center}\begin{minipage}{\linewidth}\centering\small
 
-\TableHere{Planning and independent acceptance wall times in seconds. Each entry is median / 90th percentile.}
+\TableHere{Elapsed time for planning and independent verification in seconds (median / 90th percentile).}
 
 \begin{tabular}{@{}lrrr@{}}\toprule Robot & Planning & Acceptance & Total\\\midrule
 
@@ -18,4 +18,4 @@ Articulated & 0.406 / 0.426 & 0.406 / 0.413 & 0.809 / 0.830\\
 
 \bottomrule\end{tabular}\end{minipage}\end{center}
 
-Independent articulated replay is comparatively expensive because the Python verifier integrates every stroke with 400 RK4 steps and checks both bodies. Its cost should be distinguished from the compiled planner's runtime when assessing a delivered motion. The timings describe open-loop model-based planning and numerical acceptance; hardware execution is a separate validation question.
+In articulated docking, the planner and the independent verifier each took a median of 0.406 s. The verifier integrates each stroke with 400 RK4 steps and checks both vehicle bodies. The median end-to-end time for producing and verifying an open-loop motion was 0.809 s.
