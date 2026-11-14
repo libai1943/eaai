@@ -1,6 +1,7 @@
 """Verify empirical counts, publication metadata, layout and figure geometry."""
 from pathlib import Path
 import csv,json,re
+import numpy as np
 from PIL import Image
 import pdfplumber
 from pypdf import PdfReader
@@ -46,9 +47,28 @@ def main():
     sizes=[Image.open(R/"figures"/(g+".png")).size for g in plots];assert len(set(sizes))==1
     rows=list(csv.DictReader((R/"output/verified.csv").open()));assert len(rows)==2016 and all(r["valid"]==r["accepted"] for r in rows)
     gallery=json.loads((R/"figures/data.json").read_text());assert len(gallery)==48
-    for i in (4,8,11):
-        item=next(g for g in gallery if g["name"]==f"trailer_{i:02}")
-        assert len(next(t for t in item["tracks"] if t["method"]=="adaptive")["switches"])==2
+    geometric_checks = 0
+    for item in gallery:
+        family = item["kind"]
+        if family not in ("parking", "trailer"):
+            continue
+        for track in item["tracks"]:
+            case = item["name"]
+            run = json.loads((R/"runs"/f"{case}_{track['method']}_4201.json").read_text())
+            poses = np.asarray(track["poses"])
+            directions = np.asarray(track["direction"])
+            strokes = np.asarray(run["z"]).reshape(-1, 2 if family=="parking" else 5)
+            gears = strokes[:, -1]
+            gears = np.sign(gears[np.abs(gears)>=1.e-9])
+            changes = np.flatnonzero(np.diff(directions)) + 1
+            assert directions.shape == (len(poses)-1,) and np.isin(directions, [-1,1]).all(), case
+            assert np.array_equal(directions[np.r_[0, changes]], gears[np.r_[True, np.diff(gears)!=0]]), case
+            np.testing.assert_allclose(poses[changes,:2], np.asarray(track["switches"]).reshape(-1,2), atol=1.e-8, rtol=0)
+            # Independently compare each drawn interval with its displacement along the body axis.
+            yaw = (poses[:-1,2]+poses[1:,2])/2
+            signed = (np.diff(poses[:,:2],axis=0)*np.column_stack([np.cos(yaw),np.sin(yaw)])).sum(axis=1)
+            assert np.all(signed*directions>=-1.e-10), case
+            geometric_checks += 1
     atlas=PdfReader(R/"output/pdf/RegionCovOpt_profiles.pdf")
     profile_index=json.loads((R/"figures/profiles/index.json").read_text())
     assert len(atlas.pages)==24 and len(profile_index)==48
@@ -60,7 +80,16 @@ def main():
         assert (R/"figures/profiles"/(case+".csv")).is_file()
     assert r"u(\cdot),\,z(\cdot),\,T>0" in src
     assert "Scheme" not in text and "SHA-256" not in text
-    assert re.findall(r"Fig\.\s*(\d+)\.",text)==list("1234")
+    assert re.findall(r"Fig\.\s*(\d+)\.",text)==list("12345")
+    chart = PdfReader(R/"figures/attribution.pdf").pages[0].extract_text().replace("\u2212", "-")
+    compact = re.sub(r"\s+", "", chart)
+    stats = list(csv.DictReader((R/"audit/comparisons.csv").open()))
+    global_row = next(r for r in stats if r["split"]=="matched" and r["method"]=="cma_matched")
+    regional_row = next(r for r in stats if r["split"]=="holdout" and r["method"]=="cma_regions_adaptive")
+    for key in ("parking","uav","arm","trailer"):
+        assert format(float(global_row[key]), "+.4f" if key=="parking" else "+.2f") in compact
+    for key in ("median","ci_low","ci_high"):
+        assert format(float(regional_row[key]), "+.3f") in compact
     records=json.loads((p/"references.json").read_text(encoding="utf8"))
     assert set(records)==c and len(records)==56
     assert not any(a.get("family")=="Li" and a.get("given")=="Bai" for r in records.values() for a in r["author"])
@@ -68,6 +97,7 @@ def main():
     assert any(ch.get("non_stroking_color") and isinstance(ch["non_stroking_color"],(tuple,list)) and len(ch["non_stroking_color"])==3 and all(abs(a-v)<.003 for a,v in zip(ch["non_stroking_color"],(0,.502,.675))) for ch in boxes.pages[1].chars)
     assert all(k in src for k in ("profile_ground.pdf","profile_spatial.pdf"))
     data=dict(profile_cases=len(profile_index),profile_atlas_pages=len(atlas.pages),pages=len(pdf.pages),author=pdf.metadata.author,cited_published_works=len(c),sections=titles[:6],right_aligned_equation_tags=len(tags),figure_size_pt=list(map(float,media[0])),verified_runs=len(rows),plate_png_size=sizes[0])
+    data.update(direction_checked_tracks=geometric_checks, figure_count=5, attribution_values_checked=7)
     (R/"output/preflight.json").write_text(json.dumps(data,indent=2));print(data)
 if __name__=="__main__":main()
 

@@ -1,10 +1,11 @@
-function plots()
+function plots(kinds)
+if nargin == 0, kinds = {'parking','uav','arm','trailer'}; end
 R=fileparts(fileparts(mfilename('fullpath')));F=fullfile(R,'figures');
 D=jsondecode(fileread(fullfile(F,'data.json')));
 set(groot,'defaultAxesFontName','Times New Roman','defaultTextFontName','Times New Roman','defaultAxesFontSize',7);
 blue=[.02 .29 .51];sand=[.72 .35 .16];gray=[.53 .58 .61];
-for kinds={'parking','uav','arm','trailer'}
- kind=kinds{1};fig=figure('Visible','off','Color','w','Units','inches','Position',[0 0 7.3 9.45]);
+for panel=kinds
+ kind=panel{1};fig=figure('Visible','off','Color','w','Units','inches','Position',[0 0 7.3 9.45]);
  planar=any(strcmp(kind,{'parking','trailer'}));span=[];centers=zeros(12,2);
  if planar
   for j=1:12
@@ -37,9 +38,15 @@ for kinds={'parking','uav','arm','trailer'}
       t=pick(c.tracks,k);x=t.poses;main=strcmp(t.method,'adaptive');clr=sand;sty=':';
       if main,clr=blue;sty='-';end
       if planar
-        if main&&strcmp(kind,'trailer')
-          rev=t.speed(:)<-1e-7;z=x;z(rev,:)=nan;plot(ax,z(:,1),z(:,2),'-','Color',blue,'LineWidth',1.4);
-          z=x;z(~rev,:)=nan;plot(ax,z(:,1),z(:,2),'--','Color',blue,'LineWidth',1.4);
+        if main
+          direction = t.direction(:);
+          assert(numel(direction)==size(x,1)-1 && all(abs(direction)==1));
+          junctions = [1;find(diff(direction)~=0)+1;size(x,1)];
+          for leg=1:numel(junctions)-1
+              points=junctions(leg):junctions(leg+1);
+              style='-'; if direction(points(1))<0, style='--'; end
+              plot(ax,x(points,1),x(points,2),style,'Color',blue,'LineWidth',1.4);
+          end
         else,plot(ax,x(:,1),x(:,2),sty,'Color',clr,'LineWidth',1.35);end
         if main
           s=[0;cumsum(vecnorm(diff(x(:,1:2)),2,2))];[~,idx]=min(abs(s-linspace(0,s(end),8)),[],1);
@@ -68,7 +75,7 @@ for kinds={'parking','uav','arm','trailer'}
     title(ax,sprintf('%s%02d',upper(kind(1)),j),'FontWeight','normal');
  end
  keyAx=axes(fig,'Position',[.015 .003 .97 .050],'Visible','off'); hold(keyAx,'on');
- if strcmp(kind,'trailer')
+ if planar
     names={'Forward','Reverse','CMA-ES','Gear change'};
     h=[plot(keyAx,nan,nan,'-','Color',blue),plot(keyAx,nan,nan,'--','Color',blue),...
        plot(keyAx,nan,nan,':','Color',sand),plot(keyAx,nan,nan,'d','Color',blue,'MarkerSize',3)];

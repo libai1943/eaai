@@ -1,6 +1,6 @@
 \subsection{Matched controls and contribution attribution}
 
-The regional update is compared with three additional CMA controls. All use twelve offspring, six log-weighted parents, an initial scale of 0.23, the same scale limits and the same learning rates. Initial means average up to four best members in the applicable domain. Matched global CMA has one distribution; the two-region controls use the same normalized regional coordinates as RegionCovOpt and either alternate regions or use its incumbent/reservation allocation. These three controls draw every offspring from the distribution mean. They isolate regional search from the extra mean, poll, refresh and archive-centered proposals.
+The three matched CMA controls share twelve offspring, six log-weighted parents, initial scale 0.23, scale limits and learning rates. Each mean starts at the average of up to four best members in its domain. Global CMA fits one distribution. The two regional controls use normalized coordinates and allocate batches either equally or by the incumbent/reservation rule. All three sample about the mean.
 
 \begin{center}\begin{minipage}{\linewidth}\centering\small
 
@@ -28,17 +28,19 @@ Uniform & 144 & -6.270 & 128 & -8.744\\
 
 \bottomrule\end{tabular}\end{minipage}\end{center}
 
-In the original panel, the median improvements over matched global CMA are 28.49\% for flight and 27.98\% for the arm. With independent regional distributions and adaptive allocation already present, the residual median improvement is only 0.032\% overall. Thus the main empirical gain is associated with preserving regional distributions; the special proposals add comparatively little. The global-to-regional comparison changes the selector normalization and the domain-specific initial means as part of the region construction, so it does not isolate these two effects individually.
+\input{attribution.tex}
+
+Figure~\ref{fig:attribution} separates the family-specific gains against a single global distribution from the residual difference against an adaptive regional control. Flight and manipulation have the largest median gains over matched global CMA. Against adaptive regional CMA the original-panel median change is $-0.032$\%. Region normalization and domain-specific initial means change together, so their individual contributions remain unresolved.
 
 \subsection{Independent selection and held-out task perturbations}
 
-A fixed generator creates twelve validation tasks and sixteen held-out tasks by perturbing endpoints and obstacle geometry from separate template indices. Flight opening locations and sizes vary; arm obstacles and terminal joints vary; parking starts and obstacle positions vary; docking starts and aisle obstacles vary. These are unseen geometric instances within the four declared motion-family templates. The generation rules, seeds and all inputs are retained in the repository.
+A fixed generator perturbs separate template indices to form twelve validation and sixteen held-out tasks. It varies flight openings, arm goals and obstacles, parking starts and obstacles, and docking starts and aisle geometry. The repository contains the generator, seeds and inputs.
 
-The validation experiment uses five seeds and five fixed candidates: the original method, no archive poll, diagonal covariance, balanced allocation before first feasibility, and a combined diagonal/no-poll/balanced-before-feasibility variant. Selection first maximizes independent acceptance and then minimizes the median ratio to the best accepted cost in each pair. The original method returns 59 of 60 motions; the other candidates return 57, 57, 56 and 57, respectively. It is frozen before evaluating the sixteen held-out tasks with eight new seeds. The selected method admits all 128 held-out motions. The matched global control admits 127; both regional controls admit 128.
+Five seeds per validation task compare the original rule, no poll, diagonal covariance, balanced allocation before feasibility and a variant combining all three changes. Selection maximizes acceptance count, then minimizes median cost relative to the best accepted candidate in each pair. The original rule admits 59/60 runs. The alternatives admit 57, 57, 56 and 57. Frozen before testing on eight new seeds per held-out task, the selected rule and both regional controls admit 128/128 motions. Matched global CMA admits 127/128.
 
-The original ablations favor simpler variants on several criteria, whereas the independent validation favors the original rule by acceptance count. This reversal gives no basis for declaring the poll or full covariance universally necessary. The practical result is a useful regional-search core with a small, task-dependent effect from extra proposals. A future implementation can retain the simpler regional Gaussian control when those extras do not improve its own validation tasks.
+Several simpler variants perform well on the original tasks. Independent validation favors the original rule by acceptance count. The extra proposals have small, task-dependent effects.
 
-Confidence intervals resample complete scenes within each robot family, keeping all seeds of a scene together. They are percentile intervals from 4,000 resamples and describe paired costs conditional on joint acceptance. They are exploratory intervals without multiplicity correction.
+Percentile intervals use 4,000 bootstrap resamples of scenes within robot families, keeping their seeds together. They describe jointly accepted costs and are unadjusted for multiple comparisons.
 
 For the held-out comparison with matched global CMA, the median change is -0.509\%, with a 95\% interval of [-18.400,-0.070]\%.
 

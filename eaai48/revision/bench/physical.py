@@ -33,8 +33,15 @@ def car(case,z):
             separations.append(np.maximum(proj.min(1)-other.max(1),other.min(1)-proj.max(1)))
         gap=min(gap,float(np.max(separations,axis=0).min()))
     diff=pose-target;diff[2]=math.remainder(diff[2],2*math.pi);error=float(np.max(np.abs(diff)))
-    idx=np.unique(np.linspace(0,len(poses)-1,min(450,len(poses)),dtype=int))
-    return dict(ok=gap>=.01-1e-8 and error<1e-5,J=T,error=error,gap=gap,gears=len(switches)),dict(poses=poses[idx].tolist(),switches=switches)
+    # Preserve stroke junctions when thinning the display polyline. Each signed
+    # distance labels the intervals of its stroke, including the last one.
+    display = np.vstack([rows[0], *(row[1:] for row in rows[1:])])
+    counts = np.array([len(row)-1 for row in rows])
+    edges = np.repeat(np.asarray(gear, dtype=int), counts)
+    idx = np.union1d(np.linspace(0, len(display)-1, min(450, len(display)), dtype=int),
+                     counts.cumsum())
+    trace = dict(poses=display[idx].tolist(), direction=edges[idx[1:]-1].tolist(), switches=switches)
+    return dict(ok=gap>=.01-1e-8 and error<1e-5,J=T,error=error,gap=gap,gears=len(switches)),trace
 def body(x,kind):
     if kind=="uav":return x[...,None,:3],np.array([.22])
     if kind=="arm":

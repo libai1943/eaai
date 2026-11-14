@@ -15,7 +15,8 @@ The search engine is shared across four adapters. Their motion families contain 
 - [Manuscript](paper/RegionCovOpt_EAAI.pdf)
 - [All 48 state/control profiles](paper/RegionCovOpt_profiles.pdf)
 - [Parking plate](figures/parking.pdf), [flight plate](figures/uav.pdf), [arm plate](figures/arm.pdf), [articulated docking plate](figures/trailer.pdf)
-- [Twelve representative scenes](figures/representative.pdf)
+- [Twelve representative scenes](figures/representative.pdf) with forward and reverse travel and gear changes
+- [Paired cost contribution plot](figures/attribution.pdf) with matched global and adaptive regional CMA controls
 - [Paper sources](eaai48/revision/paper)
 
 ## Evidence and interpretation

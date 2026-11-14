@@ -63,7 +63,12 @@ def main():
         if idx and kind=="trailer":
             result,X,speed,switch=dock_many(cfg,[items[i] for i in idx])
             for k,i in enumerate(idx):
-                accepted[i]=result[k];traces[i]=dict(poses=X[k,::5].tolist(),speed=speed[k,::5].tolist(),switches=switch[k,:,:2].tolist())
+                accepted[i]=result[k]
+                strokes = np.asarray(items[i]["z"]).reshape(-1, 5)
+                # Each stroke has 400 RK4 intervals and every fifth pose is plotted.
+                direction = np.repeat(strokes[:, 4].astype(int), 80)
+                traces[i]=dict(poses=X[k,::5].tolist(),speed=speed[k,::5].tolist(),
+                               direction=direction.tolist(),switches=switch[k,:,:2].tolist())
         elif kind=="parking":
             for i in idx:accepted[i],traces[i]=car(cfg,items[i]["z"])
         elif idx:accepted=dict(zip(idx,spatial_many(cfg,[items[i] for i in idx])))
