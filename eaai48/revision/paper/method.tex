@@ -1,0 +1,62 @@
+\section{Methodology}
+RegionCovOpt evaluates complete motions and maintains a separate search distribution for each parameter region. The basic operation is a batch of trials drawn in one region. Their ranks determine the next distribution for that region. An improving trial enters the archive immediately, so a later trial in the same batch can already exploit it. Figure~\ref{fig:workflow} shows the flow of information.
+
+\begin{figure*}[t]\centering\includegraphics[width=.89\textwidth]{../figures/scheme.pdf}
+\caption{Allocation, evaluation and distribution update in RegionCovOpt. Each trial consumes one evaluation. An improving trial enters the archive immediately. The batch update uses the ranks of the trials in the selected region.}\label{fig:workflow}\end{figure*}
+
+\subsection{Initialization and regional records}
+Let $K=|\mathcal I|$ denote the number of regions and $B$ the evaluation budget. Draw $N_0$ points by Latin hypercube sampling of the unit box. Each evaluation returns the rank in Eq.~(\ref{eq:rank}) and its decoded motion. The archive of a visited region stores the best such record, even if its violation is still positive. The global incumbent is the best among the visited regions. A region that initially has no member receives an empty archive.
+
+A region maintains a mean $m_b$, covariance $C_b$, scale $\sigma_b$ and two evolution paths. Its selector coordinate is affinely normalized within the region interval; the other coordinates already lie in the unit box. Thus a perturbation of a given relative magnitude has a consistent meaning even if the region intervals differ in width. In a visited region the mean is initialized by averaging its best $\min(q_0,n_b)$ points, where $q_0$ is the initialization parent limit and $n_b$ the number of initial points in that region. An empty region starts at the box center. Covariances start at the identity, evolution paths at zero and scales at $\sigma_0$.
+
+\subsection{Allocation and trial generation}
+Let $H$ denote the reservation period in batches. Every $H$th batch, starting with the first, is allocated to the next region in a cyclic order. Each other batch is allocated to the region of the current incumbent. Until a motion is admitted this decision uses the smallest known violation. After admission it uses the lowest feasible cost. Selecting a different region changes where computation is spent without combining the physical controls of different maneuvers.
+
+Let $\lambda$ be the batch capacity. The ordered batch has a mean slot, a poll slot, a refresh slot and a set $\mathcal J_A$ of slots eligible to sample about the archive. The following precedence specifies a proposal completely. The mean slot evaluates the current mean. The poll slot, when an archive exists, perturbs one uniformly selected coordinate of its best point by a centered Gaussian increment with standard deviation $\eta_0+\eta_1\sigma_b$. The refresh slot of a reserved batch draws a fresh uniform point in local coordinates. All other proposals are correlated Gaussian draws, centered on the current archive if the slot belongs to $\mathcal J_A$ and a record exists, or on the mean otherwise. Section~5 specifies the slot assignment and parameter values used in the experiments.
+
+For a covariance factorization $C_b=Q\Lambda Q^\mathsf{T}$ and center $c$, the Gaussian trial is
+\Eq{trial}{y=c+\sigma_b Q\Lambda^{1/2}\varepsilon,\qquad \varepsilon\sim\mathcal N(0,I).}
+Each trial coordinate is reflected at the unit boundaries, then mapped back to the selected region. Evaluating the decoder and ranking the motion is one oracle call irrespective of the type of proposal. Both the regional archive and the global incumbent are updated on improvement. This prevents an infeasible offspring from displacing a previously accepted motion.
+
+\subsection{Distribution update}
+Order a completed batch by increasing lexicographic rank. Let $\mu$ be the number of selected parents, $y_{i:\ell}$ the $i$th ranked point among the $\ell$ evaluated trials and $w_i$ the normalized log weights. A truncated final batch can update the distribution if $\ell\geq\mu$. In local coordinates, omitting the region subscript for readability,
+\Eq{weights}{w_i=\frac{\log(\mu+1/2)-\log i}{\sum_{j=1}^{\mu}[\log(\mu+1/2)-\log j]},\qquad i=1,\ldots,\mu.}
+\Eq{eff}{\mu_{\mathrm{eff}}=\left(\sum_{i=1}^{\mu}w_i^2\right)^{-1}.}
+\Eq{mean}{m^+=\sum_{i=1}^{\mu} w_i y_{i:\ell}.}
+Write $d_i=(y_{i:\ell}-m)/\sigma$ for a selected displacement and $d=(m^+-m)/\sigma$ for the mean displacement. The first path accumulates whitened mean displacements; the second accumulates them in the regional coordinates:
+\Eq{ps}{p_\sigma^+=(1-c_\sigma)p_\sigma+\sqrt{c_\sigma(2-c_\sigma)\mu_{\mathrm{eff}}}\,C^{-1/2}d.}
+\Eq{pc}{p_c^+=(1-c_c)p_c+h\sqrt{c_c(2-c_c)\mu_{\mathrm{eff}}}\,d.}
+The gate $h$ suppresses the addition to $p_c$ when the normalized step-size path exceeds the threshold. For region-local update count $t$, dimension $n$ and the reference Gaussian length $\chi_n$ defined in Appendix A,
+\Eq{gate}{h=\mathbf{1}\!\left\{\frac{\|p_\sigma^+\|}{\sqrt{1-(1-c_\sigma)^{2t}}}<(1.4+2/(n+1))\chi_n\right\}.}
+\Eq{factor}{\gamma=1-c_1-c_\mu+(1-h)c_1c_c(2-c_c).}
+\Eq{cov}{C^+=\gamma C+c_1p_c^+(p_c^+)^\mathsf{T}+c_\mu\sum_{i=1}^{\mu} w_i d_i d_i^\mathsf{T}.}
+\Eq{scale}{\sigma^+=\operatorname{clip}_{[\sigma_{\min},\,\sigma_{\max}]}\!\left(\sigma\exp\!\left[\frac{c_\sigma}{d_\sigma}\!\left(\frac{\|p_\sigma^+\|}{\chi_n}-1\right)\right]\right).}
+The learning-rate convention of Hansen and Ostermeier~\cite{cma} is specified in Appendix A. Appendix A gives the eigenvalue floor used in the factorization. A symmetric eigendecomposition requires $O(n^3)$ operations per batch. Sampling and covariance adaptation add $O(\lambda n^2)$ operations, in addition to the robot-dependent cost of the oracle.
+
+Algorithm~\ref{alg:region} summarizes the nested updates. The inner loop admits a trial as soon as its rank improves an archive; the outer loop adapts the distribution after a batch has been evaluated. Theorem~1 in Appendix B uses the independent refresh, which has positive probability of reaching any positive-mass subset of its region. The theorem does not depend on a perturbed Gaussian escaping a nearly singular distribution.
+
+\begin{algorithm}[tbp]
+\small
+\caption{RegionCovOpt}\label{alg:region}
+\KwIn{Scene, boundaries, maps $D$ and $R$, evaluation budget $B$, initial size $N_0$, regional proposal schedule, batch capacity $\lambda$, parent count $\mu$, reservation period $H$.}
+\KwOut{Best admitted control and state histories and their terminal time, or failure.}
+Evaluate the $N_0$ stratified points; initialize regional records, distributions and the global incumbent\;
+\For{each batch $e$ while budget remains}{
+  \eIf{batch $e$ is reserved}{select the next region in cyclic order\;}{select the region of the global incumbent\;}
+  Factor the selected covariance; start an empty batch $\mathcal L$\;
+  \For{each slot in the scheduled batch while budget remains}{
+    \uIf{the slot is the mean slot}{set the trial to the regional mean\;}
+    \uElseIf{it is the poll slot and a regional record exists}{perturb one coordinate of that record\;}
+    \uElseIf{it is the refresh slot of a reserved batch}{draw uniformly in local coordinates\;}
+    \Else{draw a correlated Gaussian about the record if the slot is archive-eligible and the record exists, or about the mean otherwise\;}
+    Reflect and map to the selected region; decode the motion and evaluate its rank\;
+    Append the trial to $\mathcal L$; update both records if improved\;
+  }
+  \If{$|\mathcal L|\geq\mu$}{
+    Rank $\mathcal L$ and update the selected mean, evolution paths, covariance and scale using Eqs.~(\ref{eq:mean})--(\ref{eq:scale})\;
+  }
+}
+\If{the global incumbent is admissible}{\KwRet{its control, state and terminal time}\;}
+\KwRet{failure and the least violation found}\;
+\end{algorithm}
+

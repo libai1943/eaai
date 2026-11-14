@@ -1,0 +1,122 @@
+{
+  "evidence/eigen.zip": {
+    "sha256": "6001a864fab3079b87683be7dd8e71d482f93fba0c9146fb1f3776526c254009",
+    "bytes": 1260278
+  },
+  "evidence/holdout_arm.zip": {
+    "sha256": "12aa8fb1dfbd56374cb69c1c77fdeaffaf1301c03cfcfd216dd3d074a08cf85d",
+    "bytes": 4558975
+  },
+  "evidence/holdout_parking.zip": {
+    "sha256": "d7312e10fababa9d8165cbf4f941b2b7a37fa9672f02d2a631126eb8259def39",
+    "bytes": 20013740
+  },
+  "evidence/holdout_trailer.zip": {
+    "sha256": "564578eccf5ac8b5e9974077cb8c7a8b5201628176564d7820089f027da4f190",
+    "bytes": 4016507
+  },
+  "evidence/holdout_uav.zip": {
+    "sha256": "fa0231f5b2e39f30af1c08791749a51ed212b4e9223ba74c256da769819c29fb",
+    "bytes": 5131170
+  },
+  "evidence/matched_arm.zip": {
+    "sha256": "e1fcbeefc17134b5d355d6e9ce61dbfb7c1656724ef89e8018868178709669b1",
+    "bytes": 3596092
+  },
+  "evidence/matched_parking.zip": {
+    "sha256": "4efbc58eb624d9414bed60e8f665ac49e90075bddca6747d715367a70873f457",
+    "bytes": 15872291
+  },
+  "evidence/matched_trailer.zip": {
+    "sha256": "b3d7850f2faa8081cbb6913b49c34326eaeac9de8e438c47c5a4e7642eb214fd",
+    "bytes": 3007799
+  },
+  "evidence/matched_uav.zip": {
+    "sha256": "8e1d3e90260afdf55310908241c38a1c7e820c0b88111c4026571b72f3f2aad0",
+    "bytes": 4074042
+  },
+  "evidence/original_arm_4201.zip": {
+    "sha256": "3d8230061d5c78c7ed7eb97bc1089a4f953712abfa5f449fbf2dcdd4d936504c",
+    "bytes": 2957288
+  },
+  "evidence/original_arm_5209.zip": {
+    "sha256": "515bc9597997f650f187bbde5f07d64327300b4722dc7a042921ea456bf82c76",
+    "bytes": 3004786
+  },
+  "evidence/original_arm_6203.zip": {
+    "sha256": "f96e001411fc398486c6161eaad73468f1fca4ad116a5076cfe4854af10be94b",
+    "bytes": 3113992
+  },
+  "evidence/original_parking_4201.zip": {
+    "sha256": "8623206186e03d0e4e18af6e2daa6362ea79e72df3781a2a622529a870f9778a",
+    "bytes": 14703805
+  },
+  "evidence/original_parking_5209.zip": {
+    "sha256": "14d4085ca66d1b1fd285691992241e38796180b9209bba891d73ff054f60dc39",
+    "bytes": 14915679
+  },
+  "evidence/original_parking_6203.zip": {
+    "sha256": "74872acc12eb3c4d7b6688b8fa43ef0fc1b1ddf89beb63e3efffff621036fd43",
+    "bytes": 15013142
+  },
+  "evidence/original_trailer_4201.zip": {
+    "sha256": "3a3f9e31469e6e4b7a8b2927acf8dd18fdc25da32638a368c0a112e74223a3b7",
+    "bytes": 2562836
+  },
+  "evidence/original_trailer_5209.zip": {
+    "sha256": "cc474c7175455f86001560e1858c9e8daed5a856ac78f1a2a880238d97c63d3e",
+    "bytes": 2516871
+  },
+  "evidence/original_trailer_6203.zip": {
+    "sha256": "450fcde2ed4f4d483f4cfeb011c35c68902165f4fde7545d4f24926924d12989",
+    "bytes": 2560741
+  },
+  "evidence/original_uav_4201.zip": {
+    "sha256": "21b5363a273223b2d8cce8ac4c6fa59c9905ad134dae4f4c05102e766702caee",
+    "bytes": 3470759
+  },
+  "evidence/original_uav_5209.zip": {
+    "sha256": "a76a81c982df0e61926c851e2813357806af6f1afc4b81f76fc0a007a0f8ee29",
+    "bytes": 3441820
+  },
+  "evidence/original_uav_6203.zip": {
+    "sha256": "9d50bafb9cece04d714b93cb466944d1c59104878ecdf55cf955a16718264772",
+    "bytes": 3323176
+  },
+  "evidence/paper_assets.zip": {
+    "sha256": "36caa0e37f8c1dcac78d36475d87c461d33334c182166b1e0aef40a43a672d82",
+    "bytes": 146978
+  },
+  "evidence/paper_fonts.zip": {
+    "sha256": "ec94c5d1b594bd48e0b52f206b743b5cd16ba797bb6a3557ad2ff63e879fea9f",
+    "bytes": 1446364
+  },
+  "evidence/profiles_and_figures.zip": {
+    "sha256": "d5813f16093f4561a0041660555f6a4d585f85a6e1ebd8bd1be60453b0283d07",
+    "bytes": 7843596
+  },
+  "evidence/supplementary_controls.zip": {
+    "sha256": "9e22672eb4c2cf468516830792192579b8b51db55b1ef9a0f9191f7dc7aaf478",
+    "bytes": 8998065
+  },
+  "evidence/validation_arm.zip": {
+    "sha256": "6d0c77f31203a5d7b26124d2a41e53b24f675c921a13845fed1d106d6c743b15",
+    "bytes": 1488506
+  },
+  "evidence/validation_parking.zip": {
+    "sha256": "22fbee302eba7992039fe565e258d3c5ecd620ec5ef70f9e3ca40b6185793301",
+    "bytes": 7442626
+  },
+  "evidence/validation_trailer.zip": {
+    "sha256": "e225572efb679ff9d66c017affdd805e4a288eb37694fe47732a64219683240a",
+    "bytes": 1183575
+  },
+  "evidence/validation_uav.zip": {
+    "sha256": "d9f03c9e9226c2b7878aa260c75e86e8dd788dd5e5f4b9484509600f41149b55",
+    "bytes": 1761858
+  },
+  "evidence/windows_binaries.zip": {
+    "sha256": "9d9bad70d29dbec225db0743b8925310dff9c9b5ba62f5446fee17dd364c0942",
+    "bytes": 2647723
+  }
+}

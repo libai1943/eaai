@@ -1,0 +1,56 @@
+{
+  "name": "trailer_04",
+  "kind": "trailer",
+  "N": 181,
+  "nx": 6,
+  "nu": 2,
+  "start": [
+    29.4,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "goal": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "lower": [
+    -8,
+    -11,
+    -6.28,
+    -1.5,
+    -0.7,
+    -6.28,
+    -0.25,
+    -0.5
+  ],
+  "upper": [
+    38,
+    11,
+    6.28,
+    1.5,
+    0.7,
+    6.28,
+    0.25,
+    0.5
+  ],
+  "obstacles": [
+    [
+      12.936,
+      -0.92,
+      -50,
+      14.456000000000001,
+      0.62,
+      50
+    ]
+  ],
+  "clearance": 0.03,
+  "initial_duration": 40,
+  "note": "Synthetic endpoint-only cold-start task. No precomputed path or trajectory."
+}

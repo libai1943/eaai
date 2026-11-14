@@ -1,0 +1,51 @@
+{
+  "variants": [
+    "adaptive",
+    "rc_no_poll",
+    "rc_diagonal",
+    "rc_balanced_first",
+    "rc_simple"
+  ],
+  "controls": [
+    "cma",
+    "cma_matched",
+    "cma_regions_equal",
+    "cma_regions_adaptive",
+    "de",
+    "random"
+  ],
+  "validation_seeds": [
+    7101,
+    7103,
+    7109,
+    7121,
+    7127
+  ],
+  "holdout_seeds": [
+    8101,
+    8107,
+    8111,
+    8117,
+    8123,
+    8147,
+    8161,
+    8167
+  ],
+  "selection": "Highest independent acceptance count, then lowest median cost normalized by the best accepted candidate in each pair; fixed tie order in variants.",
+  "scope": "New endpoint and obstacle perturbations of fixed task templates; not a new environment topology distribution.",
+  "source": {
+    "src/adaptive.inc": "61ab19eb97ee2ec6159d3f698915343593dcb11a4234421e48ab858880c3f3c5",
+    "src/docking.cpp": "2d9bfbdbeb5dfbae45676273bda1a2cebc2d06f847d78747adc370187a28b9b3",
+    "src/double_integrator.hpp": "281887635e9b3e29837b21dfc4138c71051da0686a3deee613d868949ccec854",
+    "src/engine.hpp": "f629aac33390dcda6a571e960d19d4439fbdadfceb4d8a325d1e64a54d0703ee",
+    "src/parking.hpp": "7ea20c48804492b63441c5e967e6fc54f3535b0264d96a4a0944fc1a8363b7d5",
+    "src/shared.cpp": "8ea56962d5fef150b48bf2fbe24e6e818f76260f255614d9a9f30e31d136fbd9",
+    "src/shoot_dock.cpp": "c0da791cfebab00714170629711f67c9f4637f007bae4ce6e2bdd3977df00d3d",
+    "src/shoot_shared.cpp": "39261e1bb1d25ab6167bf6706a4ba8bba51de5065d881d9260e321d3dbbfb8d2",
+    "src/spatial.hpp": "29f42daa66157f0dd64d886bd57fa85902989b3fd48d1a2fc44c8560abf70bab",
+    "src/spatial_score.hpp": "259a4dec45e94a973a8c7163d6efb5f6ebd72291300f43a8693bf08f7561122c",
+    "src/swarm_types.hpp": "1742ef7b8e02b73ea11c98cf47ed098abf930604c8c5ab2c53b1841892b18a40",
+    "bench/build.ps1": "0479bf882e63535791d3a6db167437481fdad36120509bd6304a37e271b38f45",
+    "bench/run.py": "4c7ffd452a685c954bf5b761183cc3c443934fa1cb99496fc15b92472b976e40"
+  }
+}

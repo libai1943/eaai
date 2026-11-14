@@ -1,0 +1,5541 @@
+{
+ "survey": {
+  "DOI": "10.1109/tiv.2016.2578706",
+  "title": [
+   "A Survey of Motion Planning and Control Techniques for Self-Driving Urban Vehicles"
+  ],
+  "author": [
+   {
+    "given": "Brian",
+    "family": "Paden",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michal",
+    "family": "Cap",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sze Zheng",
+    "family": "Yong",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dmitry",
+    "family": "Yershov",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Emilio",
+    "family": "Frazzoli",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Intelligent Vehicles"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     3
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "1",
+  "page": "33-55"
+ },
+ "kino": {
+  "DOI": "10.1145/174147.174150",
+  "title": [
+   "Kinodynamic motion planning"
+  ],
+  "author": [
+   {
+    "given": "Bruce",
+    "family": "Donald",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Cornell University, Ithaca, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Patrick",
+    "family": "Xavier",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Cornell University, Ithaca, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John",
+    "family": "Canny",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of California at Berkeley, Berkeley, California"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John",
+    "family": "Reif",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Duke University, Durham, North Carolina"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Journal of the ACM"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1993,
+     11
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "40",
+  "page": "1048-1066"
+ },
+ "direct": {
+  "DOI": "10.2514/3.20223",
+  "title": [
+   "Direct trajectory optimization using nonlinear programming and collocation"
+  ],
+  "author": [
+   {
+    "given": "C.R.",
+    "family": "Hargraves",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Boeing Aerospace Company, Seattle, Washington"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "S.W.",
+    "family": "Paris",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Boeing Aerospace Company, Seattle, Washington"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Journal of Guidance, Control, and Dynamics"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1987,
+     7
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "10",
+  "page": "338-342"
+ },
+ "betts": {
+  "DOI": "10.2514/2.4231",
+  "title": [
+   "Survey of Numerical Methods for Trajectory Optimization"
+  ],
+  "author": [
+   {
+    "given": "John T.",
+    "family": "Betts",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Boeing Information and Support Services, Seattle, Washington 98124-2207"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Journal of Guidance, Control, and Dynamics"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1998,
+     3
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "21",
+  "page": "193-207"
+ },
+ "kelly": {
+  "DOI": "10.1137/16m1062569",
+  "title": [
+   "An Introduction to Trajectory Optimization: How to Do Your Own Direct Collocation"
+  ],
+  "author": [
+   {
+    "given": "Matthew",
+    "family": "Kelly",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Mechanical Engineering, Cornell University, Ithaca, NY 14850."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "SIAM Review"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2017,
+     1,
+     1
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "59",
+  "page": "849-904"
+ },
+ "ipopt": {
+  "DOI": "10.1007/s10107-004-0559-y",
+  "title": [
+   "On the implementation of an interior-point filter line-search algorithm for large-scale nonlinear programming"
+  ],
+  "author": [
+   {
+    "given": "Andreas",
+    "family": "Wächter",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lorenz T.",
+    "family": "Biegler",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Mathematical Programming"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2005,
+     4,
+     28
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "106",
+  "page": "25-57"
+ },
+ "elastic": {
+  "DOI": "10.1109/robot.1993.291936",
+  "title": [
+   "Elastic bands: connecting path planning and control"
+  ],
+  "author": [
+   {
+    "given": "S.",
+    "family": "Quinlan",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "O.",
+    "family": "Khatib",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "[1993] Proceedings IEEE International Conference on Robotics and Automation"
+  ],
+  "type": "proceedings-article",
+  "page": "802-807"
+ },
+ "chomp": {
+  "DOI": "10.1177/0278364913488805",
+  "title": [
+   "CHOMP: Covariant Hamiltonian optimization for motion planning"
+  ],
+  "author": [
+   {
+    "given": "Matt",
+    "family": "Zucker",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Engineering, Swarthmore College, Swarthmore, PA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nathan",
+    "family": "Ratliff",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google, Inc., Pittsburgh, PA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Anca D.",
+    "family": "Dragan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Robotics Institute, Carnegie Mellon University, Pittsburgh, PA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mihail",
+    "family": "Pivtoraiko",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Mechanical Engineering and Applied Mechanics, University of Pennsylvania, Pittsburgh, PA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Matthew",
+    "family": "Klingensmith",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Robotics Institute, Carnegie Mellon University, Pittsburgh, PA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Christopher M.",
+    "family": "Dellin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Robotics Institute, Carnegie Mellon University, Pittsburgh, PA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "J. Andrew",
+    "family": "Bagnell",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Robotics Institute, Carnegie Mellon University, Pittsburgh, PA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Siddhartha S.",
+    "family": "Srinivasa",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Robotics Institute, Carnegie Mellon University, Pittsburgh, PA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "The International Journal of Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2013,
+     8
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "32",
+  "page": "1164-1193"
+ },
+ "trajopt": {
+  "DOI": "10.1177/0278364914528132",
+  "title": [
+   "Motion planning with sequential convex optimization and convex collision checking"
+  ],
+  "author": [
+   {
+    "given": "John",
+    "family": "Schulman",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yan",
+    "family": "Duan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jonathan",
+    "family": "Ho",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alex",
+    "family": "Lee",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ibrahim",
+    "family": "Awwal",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Henry",
+    "family": "Bradlow",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jia",
+    "family": "Pan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sachin",
+    "family": "Patil",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ken",
+    "family": "Goldberg",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pieter",
+    "family": "Abbeel",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical Engineering and Computer Sciences, University of California at Berkeley, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "The International Journal of Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2014,
+     6,
+     11
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "33",
+  "page": "1251-1270"
+ },
+ "inference": {
+  "DOI": "10.15607/rss.2016.xii.001",
+  "title": [
+   "Motion Planning as Probabilistic Inference using Gaussian Processes and Factor Graphs"
+  ],
+  "author": [
+   {
+    "given": "Jing",
+    "family": "Dong",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mustafa",
+    "family": "Mukadam",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Frank",
+    "family": "Dellaert",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Byron",
+    "family": "Boots",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Robotics: Science and Systems XII"
+  ],
+  "type": "proceedings-article"
+ },
+ "gpmp": {
+  "DOI": "10.1177/0278364918790369",
+  "title": [
+   "Continuous-time Gaussian process motion planning via probabilistic inference"
+  ],
+  "author": [
+   {
+    "given": "Mustafa",
+    "family": "Mukadam",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Institute for Robotics and Intelligent Machines, Georgia Institute of Technology, Atlanta, GA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6360-8134",
+    "authenticated-orcid": false,
+    "given": "Jing",
+    "family": "Dong",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute for Robotics and Intelligent Machines, Georgia Institute of Technology, Atlanta, GA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xinyan",
+    "family": "Yan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute for Robotics and Intelligent Machines, Georgia Institute of Technology, Atlanta, GA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Frank",
+    "family": "Dellaert",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute for Robotics and Intelligent Machines, Georgia Institute of Technology, Atlanta, GA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Byron",
+    "family": "Boots",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute for Robotics and Intelligent Machines, Georgia Institute of Technology, Atlanta, GA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "The International Journal of Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     9
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "37",
+  "page": "1319-1340"
+ },
+ "gusto": {
+  "DOI": "10.1109/icra.2019.8794205",
+  "title": [
+   "GuSTO: Guaranteed Sequential Trajectory optimization via Sequential Convex Programming"
+  ],
+  "author": [
+   {
+    "given": "Riccardo",
+    "family": "Bonalli",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Abhishek",
+    "family": "Cauligi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andrew",
+    "family": "Bylard",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marco",
+    "family": "Pavone",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "2019 International Conference on Robotics and Automation (ICRA)"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     5
+    ]
+   ]
+  },
+  "type": "proceedings-article",
+  "page": "6741-6747"
+ },
+ "scp": {
+  "DOI": "10.2514/6.2019-0926",
+  "title": [
+   "Successive Convexification for 6-DoF Powered Descent Guidance with Compound State-Triggered Constraints"
+  ],
+  "author": [
+   {
+    "given": "Michael",
+    "family": "Szmuk",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Washington, Seattle"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Taylor",
+    "family": "Reynolds",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Washington, Seattle"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Behcet",
+    "family": "Acikmese",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Washington, Seattle"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mehran",
+    "family": "Mesbahi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Washington, Seattle"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John M.",
+    "family": "Carson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "NASA Johnson Space Center"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "AIAA Scitech 2019 Forum"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     6
+    ]
+   ]
+  },
+  "type": "proceedings-article"
+ },
+ "cfs": {
+  "DOI": "10.1137/16m1091460",
+  "title": [
+   "The Convex Feasible Set Algorithm for Real Time Optimization in Motion Planning"
+  ],
+  "author": [
+   {
+    "given": "Changliu",
+    "family": "Liu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chung-Yen",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Masayoshi",
+    "family": "Tomizuka",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "SIAM Journal on Control and Optimization"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     1
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "56",
+  "page": "2712-2733"
+ },
+ "obca": {
+  "DOI": "10.1109/tcst.2019.2949540",
+  "title": [
+   "Optimization-Based Collision Avoidance"
+  ],
+  "author": [
+   {
+    "given": "Xiaojing",
+    "family": "Zhang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alexander",
+    "family": "Liniger",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Francesco",
+    "family": "Borrelli",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Control Systems Technology"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     5
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "29",
+  "page": "972-983"
+ },
+ "rigid": {
+  "DOI": "10.1109/56.2083",
+  "title": [
+   "A fast procedure for computing the distance between complex objects in three-dimensional space"
+  ],
+  "author": [
+   {
+    "given": "E.G.",
+    "family": "Gilbert",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "D.W.",
+    "family": "Johnson",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "S.S.",
+    "family": "Keerthi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Journal on Robotics and Automation"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1988,
+     4
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "4",
+  "page": "193-203"
+ },
+ "gk": {
+  "DOI": "10.1080/10867651.1999.10487502",
+  "title": [
+   "A Fast and Robust GJK Implementation for Collision Detection of Convex Objects"
+  ],
+  "author": [
+   {
+    "given": "Gino Van den",
+    "family": "Bergen",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Journal of Graphics Tools"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1999,
+     1
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "4",
+  "page": "7-25"
+ },
+ "reeds": {
+  "DOI": "10.2140/pjm.1990.145.367",
+  "title": [
+   "Optimal paths for a car that goes both forwards and backwards"
+  ],
+  "author": [
+   {
+    "given": "James",
+    "family": "Reeds",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lawrence",
+    "family": "Shepp",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Pacific Journal of Mathematics"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1990,
+     10,
+     1
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "145",
+  "page": "367-393"
+ },
+ "tractor": {
+  "DOI": "10.1002/rob.21908",
+  "title": [
+   "A path planning and path‐following control framework for a general 2‐trailer with a car‐like tractor"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-1795-5992",
+    "authenticated-orcid": false,
+    "given": "Oskar",
+    "family": "Ljungqvist",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Automatic Control Linköping University  Linköping Sweden"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2131-4589",
+    "authenticated-orcid": false,
+    "given": "Niclas",
+    "family": "Evestedt",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Embark Trucks Inc  San Francisco California"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6957-2603",
+    "authenticated-orcid": false,
+    "given": "Daniel",
+    "family": "Axehill",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Automatic Control Linköping University  Linköping Sweden"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4708-8412",
+    "authenticated-orcid": false,
+    "given": "Marcello",
+    "family": "Cirillo",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Autonomous Transport Solutions Scania CV  Södertälje Sweden"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Henrik",
+    "family": "Pettersson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Autonomous Transport Solutions Scania CV  Södertälje Sweden"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Journal of Field Robotics"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     10,
+     25
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "36",
+  "page": "1345-1377"
+ },
+ "topp": {
+  "DOI": "10.1109/tro.2018.2819195",
+  "title": [
+   "A New Approach to Time-Optimal Path Parameterization Based on Reachability Analysis"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-6116-1359",
+    "authenticated-orcid": false,
+    "given": "Hung",
+    "family": "Pham",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9605-4940",
+    "authenticated-orcid": false,
+    "given": "Quang-Cuong",
+    "family": "Pham",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Robotics"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     6
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "34",
+  "page": "645-659"
+ },
+ "prm": {
+  "DOI": "10.1109/70.508439",
+  "title": [
+   "Probabilistic roadmaps for path planning in high-dimensional configuration spaces"
+  ],
+  "author": [
+   {
+    "given": "L.E.",
+    "family": "Kavraki",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "P.",
+    "family": "Svestka",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "J.-C.",
+    "family": "Latombe",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "M.H.",
+    "family": "Overmars",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Robotics and Automation"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "12",
+  "page": "566-580"
+ },
+ "connect": {
+  "DOI": "10.1109/robot.2000.844730",
+  "title": [
+   "RRT-connect: An efficient approach to single-query path planning"
+  ],
+  "author": [
+   {
+    "given": "J.J.",
+    "family": "Kuffner",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Stanford",
+      "place": [
+       "Stanford, CA, USA"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "S.M.",
+    "family": "LaValle",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Iowa State University",
+      "place": [
+       "Ames, IA, USA"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2000
+    ]
+   ]
+  },
+  "type": "proceedings-article",
+  "page": "995-1001 vol.2"
+ },
+ "kino2": {
+  "DOI": "10.1177/02783640122067453",
+  "title": [
+   "Randomized Kinodynamic Planning"
+  ],
+  "author": [
+   {
+    "given": "Steven M.",
+    "family": "LaValle",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Iowa State University, Ames, IA 50011"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "suffix": "Jr.",
+    "given": "James J.",
+    "family": "Kuffner",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Mechano-Informatics, University of Tokyo, Bunkyo-ku, Tokyo, Japan"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "The International Journal of Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2001,
+     5
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "20",
+  "page": "378-400"
+ },
+ "kpiece": {
+  "DOI": "10.1007/978-3-642-00312-7_28",
+  "title": [
+   "Kinodynamic Motion Planning by Interior-Exterior Cell Exploration"
+  ],
+  "author": [
+   {
+    "given": "Ioan A.",
+    "family": "Şucan",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lydia E.",
+    "family": "Kavraki",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Springer Tracts in Advanced Robotics",
+   "Algorithmic Foundation of Robotics VIII"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2009
+    ]
+   ]
+  },
+  "type": "book-chapter",
+  "page": "449-464"
+ },
+ "ompl": {
+  "DOI": "10.1109/mra.2012.2205651",
+  "title": [
+   "The Open Motion Planning Library"
+  ],
+  "author": [
+   {
+    "given": "Ioan A.",
+    "family": "Sucan",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Rice University, Houston, TX 77251 USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mark",
+    "family": "Moll",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Rice University, Houston, TX 77251 USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lydia E.",
+    "family": "Kavraki",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Rice University, Houston, TX 77005 USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Robotics &amp; Automation Magazine"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2012,
+     12
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "19",
+  "page": "72-82"
+ },
+ "rrt": {
+  "DOI": "10.1177/0278364911406761",
+  "title": [
+   "Sampling-based algorithms for optimal motion planning"
+  ],
+  "author": [
+   {
+    "given": "Sertac",
+    "family": "Karaman",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, Cambridge, MA, USA,"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Emilio",
+    "family": "Frazzoli",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, Cambridge, MA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "The International Journal of Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2011,
+     6
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "30",
+  "page": "846-894"
+ },
+ "fmt": {
+  "DOI": "10.1177/0278364915577958",
+  "title": [
+   "Fast marching tree: A fast marching sampling-based method for optimal motion planning in many dimensions"
+  ],
+  "author": [
+   {
+    "given": "Lucas",
+    "family": "Janson",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Statistics, Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Edward",
+    "family": "Schmerling",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute for Computational and Mathematical Engineering, Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ashley",
+    "family": "Clark",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Aeronautics and Astronautics, Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marco",
+    "family": "Pavone",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Aeronautics and Astronautics, Stanford University, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "The International Journal of Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2015,
+     5,
+     18
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "34",
+  "page": "883-921"
+ },
+ "informed": {
+  "DOI": "10.1109/iros.2014.6942976",
+  "title": [
+   "Informed RRT*: Optimal sampling-based path planning focused via direct sampling of an admissible ellipsoidal heuristic"
+  ],
+  "author": [
+   {
+    "given": "Jonathan D.",
+    "family": "Gammell",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Autonomous Space Robotics Lab at the University of Toronto Institute for Aerospace Studies, Ontario, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Siddhartha S.",
+    "family": "Srinivasa",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Robotics Institute, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Timothy D.",
+    "family": "Barfoot",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Autonomous Space Robotics Lab at the University of Toronto Institute for Aerospace Studies, Ontario, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "2014 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2014,
+     9
+    ]
+   ]
+  },
+  "type": "proceedings-article",
+  "page": "2997-3004"
+ },
+ "bit": {
+  "DOI": "10.1177/0278364919890396",
+  "title": [
+   "Batch Informed Trees (BIT*): Informed asymptotically optimal anytime search"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-1034-3889",
+    "authenticated-orcid": false,
+    "given": "Jonathan D",
+    "family": "Gammell",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Oxford, Oxford, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Timothy D",
+    "family": "Barfoot",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Toronto, Toronto, ON, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Siddhartha S",
+    "family": "Srinivasa",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Washington, Seattle, WA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "The International Journal of Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2020,
+     1,
+     27
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "39",
+  "page": "543-567"
+ },
+ "sst": {
+  "DOI": "10.1177/0278364915614386",
+  "title": [
+   "Asymptotically optimal sampling-based kinodynamic planning"
+  ],
+  "author": [
+   {
+    "given": "Yanbo",
+    "family": "Li",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zakary",
+    "family": "Littlefield",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kostas E.",
+    "family": "Bekris",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "The International Journal of Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     2,
+     3
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "35",
+  "page": "528-564"
+ },
+ "mpnet": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     5
+    ]
+   ],
+   "date-time": "2026-11-05T19:11:24Z",
+   "timestamp": 1793905884703,
+   "version": "4.8.0"
+  },
+  "reference-count": 30,
+  "publisher": "IEEE",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       5,
+       1
+      ]
+     ],
+     "date-time": "2019-05-01T00:00:00Z",
+     "timestamp": 1556668800000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       5,
+       1
+      ]
+     ],
+     "date-time": "2019-05-01T00:00:00Z",
+     "timestamp": 1556668800000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-029"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2019,
+       5,
+       1
+      ]
+     ],
+     "date-time": "2019-05-01T00:00:00Z",
+     "timestamp": 1556668800000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-037"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2019,
+     5
+    ]
+   ]
+  },
+  "DOI": "10.1109/icra.2019.8793889",
+  "type": "proceedings-article",
+  "created": {
+   "date-parts": [
+    [
+     2019,
+     8,
+     13
+    ]
+   ],
+   "date-time": "2019-08-13T01:26:12Z",
+   "timestamp": 1565659572000
+  },
+  "page": "2118-2124",
+  "source": "Crossref",
+  "is-referenced-by-count": 192,
+  "title": [
+   "Motion Planning Networks"
+  ],
+  "prefix": "10.1109",
+  "author": [
+   {
+    "given": "Ahmed H.",
+    "family": "Qureshi",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Anthony",
+    "family": "Simeonov",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mayur J.",
+    "family": "Bency",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael C.",
+    "family": "Yip",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref30",
+    "first-page": "2121",
+    "article-title": "Adaptive subgradient methods for online learning and stochastic optimization",
+    "volume": "12",
+    "author": "duchi",
+    "year": "2011",
+    "journal-title": "Journal of Machine Learning Research"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.neunet.2014.09.003"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.2174/1573399812666160613113556"
+   },
+   {
+    "key": "ref12",
+    "first-page": "2154",
+    "article-title": "Value iteration networks",
+    "author": "tamar",
+    "year": "2016",
+    "journal-title": "Advances in neural information processing systems"
+   },
+   {
+    "key": "ref13",
+    "article-title": "End to end learning for self-driving cars",
+    "author": "bojarski",
+    "year": "2016",
+    "journal-title": "arXiv preprint arXiv 1604 07316"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/MRA.2010.936947"
+   },
+   {
+    "key": "ref15",
+    "article-title": "Learning real manipulation tasks from virtual demonstrations using lstm",
+    "author": "rahmatizadeh",
+    "year": "2016",
+    "journal-title": "ArXiv Preprint"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICRA.2018.8460730"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICRA.2012.6224742"
+   },
+   {
+    "key": "ref18",
+    "first-page": "833",
+    "article-title": "Contractive auto-encoders: Explicit invariance during feature extraction",
+    "author": "rifai",
+    "year": "2011",
+    "journal-title": "Proceedings of the 28th International Conference on International Conference on Machine Learning"
+   },
+   {
+    "key": "ref19",
+    "author": "paszke",
+    "year": "2017",
+    "journal-title": "On Automatic Differentiation"
+   },
+   {
+    "key": "ref28",
+    "first-page": "496",
+    "article-title": "Fastron: An online learning-based model and active learning strategy for proxy collision detection",
+    "author": "das",
+    "year": "2017",
+    "journal-title": "Conference on Robot Learning"
+   },
+   {
+    "key": "ref4",
+    "author": "lavalle",
+    "year": "1998",
+    "journal-title": "Rapidly-Exploring Random Trees A New Tool for Path Planning"
+   },
+   {
+    "key": "ref27",
+    "article-title": "Learning-based proxy collision detection for robot motion planning applications",
+    "author": "das",
+    "year": "2019",
+    "journal-title": "arXiv preprint arXiv 1902 05023"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/AERO.2003.1235474"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10514-015-9518-0"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1073/pnas.1611835114"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1177/0278364911406761"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.robot.2018.06.013"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.robot.2015.02.007"
+   },
+   {
+    "key": "ref2",
+    "author": "lozano-perez",
+    "year": "2012",
+    "journal-title": "Autonomous Robot Vehicles"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICRA.2015.7139620"
+   },
+   {
+    "key": "ref1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1017/CBO9780511546877"
+   },
+   {
+    "key": "ref20",
+    "author": "?ucan",
+    "year": "0",
+    "journal-title": "MoveIt!"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICRA.2011.5980567"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "crossref",
+    "first-page": "72",
+    "DOI": "10.1109/MRA.2012.2205651",
+    "article-title": "The Open Motion Planning Library",
+    "volume": "19",
+    "author": "?ucan",
+    "year": "2012",
+    "journal-title": "IEEE Robotics & Automation Magazine"
+   },
+   {
+    "key": "ref24",
+    "first-page": "1929",
+    "article-title": "Dropout: a simple way to prevent neural networks from overfitting",
+    "volume": "15",
+    "author": "srivastava",
+    "year": "2014",
+    "journal-title": "Journal of Machine Learning Research"
+   },
+   {
+    "key": "ref23",
+    "article-title": "Parametric exponential&#x2018; linear unit for deep convolutional neural networks",
+    "author": "trottier",
+    "year": "2016",
+    "journal-title": "arXiv preprint arXiv 1605 04283"
+   },
+   {
+    "key": "ref26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/IROS.2018.8593772"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/IROS.2014.6942976"
+   }
+  ],
+  "event": {
+   "name": "2019 International Conference on Robotics and Automation (ICRA)",
+   "location": "Montreal, QC, Canada",
+   "start": {
+    "date-parts": [
+     [
+      2019,
+      5,
+      20
+     ]
+    ]
+   },
+   "end": {
+    "date-parts": [
+     [
+      2019,
+      5,
+      24
+     ]
+    ]
+   }
+  },
+  "container-title": [
+   "2019 International Conference on Robotics and Automation (ICRA)"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx7/8780387/8793254/08793889.pdf?arnumber=8793889",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2022,
+     7,
+     15
+    ]
+   ],
+   "date-time": "2022-07-15T03:08:43Z",
+   "timestamp": 1657854523000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://ieeexplore.ieee.org/document/8793889/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     5
+    ]
+   ]
+  },
+  "references-count": 30,
+  "URL": "https://doi.org/10.1109/icra.2019.8793889",
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     5
+    ]
+   ]
+  }
+ },
+ "eaai1": {
+  "DOI": "10.1016/j.engappai.2021.104399",
+  "type": "journal-article",
+  "page": "104399",
+  "title": [
+   "Learning from experience for rapid generation of local car maneuvers"
+  ],
+  "volume": "105",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-0097-6612",
+    "authenticated-orcid": false,
+    "given": "Piotr",
+    "family": "Kicki",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0975-6077",
+    "authenticated-orcid": false,
+    "given": "Tomasz",
+    "family": "Gawron",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2193-5684",
+    "authenticated-orcid": false,
+    "given": "Krzysztof",
+    "family": "Ćwian",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mete",
+    "family": "Ozay",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9843-2404",
+    "authenticated-orcid": false,
+    "given": "Piotr",
+    "family": "Skrzypczyński",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Engineering Applications of Artificial Intelligence"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     10
+    ]
+   ]
+  },
+  "article-number": "104399"
+ },
+ "eaai3": {
+  "DOI": "10.1016/j.engappai.2024.109870",
+  "type": "journal-article",
+  "page": "109870",
+  "title": [
+   "Path planning via reinforcement learning with closed-loop motion control and field tests"
+  ],
+  "volume": "142",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-9491-4211",
+    "authenticated-orcid": false,
+    "given": "Árpád",
+    "family": "Fehér",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2941-949X",
+    "authenticated-orcid": false,
+    "given": "Ádám",
+    "family": "Domina",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3985-5244",
+    "authenticated-orcid": false,
+    "given": "Ádám",
+    "family": "Bárdos",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6811-2584",
+    "authenticated-orcid": false,
+    "given": "Szilárd",
+    "family": "Aradi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1487-9672",
+    "authenticated-orcid": false,
+    "given": "Tamás",
+    "family": "Bécsi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Engineering Applications of Artificial Intelligence"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2025,
+     2
+    ]
+   ]
+  },
+  "article-number": "109870"
+ },
+ "diffusion": {
+  "DOI": "10.1109/tro.2025.3593109",
+  "title": [
+   "Motion Planning Diffusion: Learning and Adapting Robot Motion Planning With Diffusion Models"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-5976-959X",
+    "authenticated-orcid": false,
+    "given": "João",
+    "family": "Carvalho",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Intelligent Autonomous Systems Lab, Computer Science Department, Technical University of Darmstadt, Darmstadt, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0929-3316",
+    "authenticated-orcid": false,
+    "given": "An Thai",
+    "family": "Le",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Intelligent Autonomous Systems Lab, Computer Science Department, Technical University of Darmstadt, Darmstadt, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0097-6612",
+    "authenticated-orcid": false,
+    "given": "Piotr",
+    "family": "Kicki",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Poznan University of Technology, Poznan, Poland"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3571-6848",
+    "authenticated-orcid": false,
+    "given": "Dorothea",
+    "family": "Koert",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Intelligent Autonomous Systems Lab, Computer Science Department, Technical University of Darmstadt, Darmstadt, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5266-8091",
+    "authenticated-orcid": false,
+    "given": "Jan",
+    "family": "Peters",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Intelligent Autonomous Systems Lab, Computer Science Department, Technical University of Darmstadt, Darmstadt, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Robotics"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "41",
+  "page": "4881-4901"
+ },
+ "stomp": {
+  "DOI": "10.1109/icra.2011.5980280",
+  "title": [
+   "STOMP: Stochastic trajectory optimization for motion planning"
+  ],
+  "author": [
+   {
+    "given": "Mrinal",
+    "family": "Kalakrishnan",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sachin",
+    "family": "Chitta",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Evangelos",
+    "family": "Theodorou",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Peter",
+    "family": "Pastor",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Stefan",
+    "family": "Schaal",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "2011 IEEE International Conference on Robotics and Automation"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2011,
+     5
+    ]
+   ]
+  },
+  "type": "proceedings-article",
+  "page": "4569-4574"
+ },
+ "pso": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     8
+    ]
+   ],
+   "date-time": "2026-11-08T03:33:31Z",
+   "timestamp": 1794108811425,
+   "version": "4.8.0"
+  },
+  "reference-count": 9,
+  "publisher": "IEEE",
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "DOI": "10.1109/icnn.1995.488968",
+  "type": "proceedings-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     11,
+     19
+    ]
+   ],
+   "date-time": "2002-11-19T13:30:57Z",
+   "timestamp": 1037712657000
+  },
+  "page": "1942-1948",
+  "source": "Crossref",
+  "is-referenced-by-count": 42585,
+  "title": [
+   "Particle swarm optimization"
+  ],
+  "prefix": "10.1109",
+  "volume": "4",
+  "author": [
+   {
+    "given": "J.",
+    "family": "Kennedy",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "R.",
+    "family": "Eberhart",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref1",
+    "volume-title": "Handbook of Genetic Algorithms",
+    "year": "1991"
+   },
+   {
+    "key": "ref2",
+    "volume-title": "Neural Network PC Tools: A Practical Guide",
+    "author": "Eberhart",
+    "year": "1990"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1111/j.1469-1809.1936.tb02137.x"
+   },
+   {
+    "key": "ref4",
+    "article-title": "A stochastic nonlinear model for coordinated bird flocks",
+    "volume-title": "The Ubiquity of Chaos",
+    "author": "Heppner",
+    "year": "1990"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.7551/mitpress/1090.001.0001",
+    "volume-title": "Adaptation in Natural and Artificial Systems",
+    "author": "Holland",
+    "year": "1992"
+   },
+   {
+    "key": "ref6",
+    "article-title": "Swarms, phase transitions, and collective intelligence",
+    "volume-title": "Artificial Life III",
+    "author": "Millonas",
+    "year": "1994"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/357318.357320"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/37402.37406"
+   },
+   {
+    "key": "ref9",
+    "volume-title": "Sociobiology: The new synthesis",
+    "author": "Wilson",
+    "year": "1975"
+   }
+  ],
+  "event": {
+   "name": "ICNN'95 - International Conference on Neural Networks",
+   "location": "Perth, WA, Australia",
+   "acronym": "ICNN-95"
+  },
+  "container-title": [
+   "Proceedings of ICNN'95 - International Conference on Neural Networks"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx2/3505/10434/00488968.pdf?arnumber=488968",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2024,
+     1,
+     23
+    ]
+   ],
+   "date-time": "2024-01-23T17:11:38Z",
+   "timestamp": 1706029898000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "http://ieeexplore.ieee.org/document/488968/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     null
+    ]
+   ]
+  },
+  "references-count": 9,
+  "URL": "https://doi.org/10.1109/icnn.1995.488968",
+  "relation": {},
+  "subject": []
+ },
+ "de": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     8
+    ]
+   ],
+   "date-time": "2026-11-08T01:29:50Z",
+   "timestamp": 1794101390736,
+   "version": "4.8.0"
+  },
+  "reference-count": 24,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1997,
+       12,
+       1
+      ]
+     ],
+     "date-time": "1997-12-01T00:00:00Z",
+     "timestamp": 880934400000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       1997,
+       12,
+       1
+      ]
+     ],
+     "date-time": "1997-12-01T00:00:00Z",
+     "timestamp": 880934400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Journal of Global Optimization"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     1997,
+     12
+    ]
+   ]
+  },
+  "DOI": "10.1023/a:1008202821328",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2002,
+     12,
+     22
+    ]
+   ],
+   "date-time": "2002-12-22T08:47:34Z",
+   "timestamp": 1040546854000
+  },
+  "page": "341-359",
+  "source": "Crossref",
+  "is-referenced-by-count": 25892,
+  "title": [
+   "Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces"
+  ],
+  "prefix": "10.1007",
+  "volume": "11",
+  "author": [
+   {
+    "given": "Rainer",
+    "family": "Storn",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kenneth",
+    "family": "Price",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "reference": [
+   {
+    "issue": "1",
+    "key": "136368_CR1",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1007/BF00941312",
+    "volume": "47",
+    "author": "F. Aluffi-Pentini",
+    "year": "1985",
+    "unstructured": "Aluffi-Pentini, F., Parisi, V. and Zirilli, F. (1985), Global Optimization and Stochastic Differential Equations, Journal of Optimization Theory and Applications47(1), 1–16.",
+    "journal-title": "Journal of Optimization Theory and Applications"
+   },
+   {
+    "key": "136368_CR2",
+    "doi-asserted-by": "crossref",
+    "first-page": "1334",
+    "DOI": "10.1109/PROC.1981.12170",
+    "volume": "69",
+    "author": "H. Brayton",
+    "year": "1981",
+    "unstructured": "Brayton, H., Hachtel, G. and Sangiovanni-Vincentelli, A. (1981), A Survey of Optimization Techniques for Integrated Circuit Design, Proceedings of the IEEE69, pp. 1334–1362.",
+    "journal-title": "Proceedings of the IEEE"
+   },
+   {
+    "key": "136368_CR3",
+    "unstructured": "Bunday, B.D. and Garside G.R. (1987), Optimisation Methods in Pascal, Edward Arnold Publishers."
+   },
+   {
+    "key": "136368_CR4",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Corana, A., Marchesi, M., Martini, C. and Ridella, S. (1987), Minimizing Multimodal Functions of Continuous Variables with the “Simulated Annealing Algorithm”, ACM Transactions on Mathematical Software, March 1987, pp. 272–280.",
+    "DOI": "10.1145/29380.29864"
+   },
+   {
+    "key": "136368_CR5",
+    "unstructured": "Goldberg, D.E. (1989), Genetic Algorithms in Search, Optimization & Machine Learning, Addison-Wesley."
+   },
+   {
+    "key": "136368_CR6",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.1007/BF00933356",
+    "volume": "34",
+    "author": "A.O. Griewangk",
+    "year": "1981",
+    "unstructured": "Griewangk, A.O. (1981), Generalized Descent for Global Optimization, JOTA34, 11–39.",
+    "journal-title": "JOTA"
+   },
+   {
+    "issue": "11",
+    "key": "136368_CR7",
+    "doi-asserted-by": "crossref",
+    "first-page": "87",
+    "DOI": "10.1016/0895-7177(92)90108-W",
+    "volume": "16",
+    "author": "L. Ingber",
+    "year": "1992",
+    "unstructured": "Ingber, L. and Rosen, B. (1992), Genetic Algorithms and Very Fast Simulated Reannealing: A Comparison, J. of Mathematical and Computer Modeling16(11), 87–100.",
+    "journal-title": "J. of Mathematical and Computer Modeling"
+   },
+   {
+    "issue": "11",
+    "key": "136368_CR8",
+    "doi-asserted-by": "crossref",
+    "first-page": "29",
+    "DOI": "10.1016/0895-7177(93)90204-C",
+    "volume": "18",
+    "author": "L. Ingber",
+    "year": "1993",
+    "unstructured": "Ingber, L. (1993), Simulated Annealing: Practice Versus Theory, J. of Mathematical and Computer Modeling18(11), 29–57.",
+    "journal-title": "J. of Mathematical and Computer Modeling"
+   },
+   {
+    "issue": "2",
+    "key": "136368_CR9",
+    "first-page": "131",
+    "volume": "44",
+    "author": "E. Lueder",
+    "year": "1990",
+    "unstructured": "Lueder, E. (1990), Optimization of Circuits with a Large Number of Parameters, Archiv fuer Elektronik und Uebertragungstechnik44(2), 131–138.",
+    "journal-title": "Archiv fuer Elektronik und Uebertragungstechnik"
+   },
+   {
+    "issue": "1",
+    "key": "136368_CR10",
+    "doi-asserted-by": "crossref",
+    "first-page": "25",
+    "DOI": "10.1162/evco.1993.1.1.25",
+    "volume": "1",
+    "author": "H. Muehlenbein",
+    "year": "1993",
+    "unstructured": "Muehlenbein, H. and Schlierkamp-Vosen (1993), Predictive Models for the Breeder Genetic Algorithm, I. Continuous Parameter Optimizations, Evolutionary Computation1(1), 25–49.",
+    "journal-title": "Evolutionary Computation"
+   },
+   {
+    "key": "136368_CR11",
+    "unstructured": "Press, W.H., Teukolsky, S.A., Vetterling, W.T. and Flannery, B.P. (1992), Numerical Recipes in C, Cambridge University Press."
+   },
+   {
+    "key": "136368_CR12",
+    "unstructured": "Price, K. (1994), Genetic Annealing, Dr. Dobb’s Journal, Oct. 1994, 127–132."
+   },
+   {
+    "key": "136368_CR13",
+    "unstructured": "Price, K. and Storn, R. (1996), Minimizing the Real Functions of the ICEC’96 contest by Differential Evolution, IEEE International Conference on Evolutionary Computation(ICEC’96), may 1996, pp. 842–844."
+   },
+   {
+    "key": "136368_CR14",
+    "unstructured": "Price, K. (1996), Differential Evolution: A Fast and Simple Numerical Optimizer, NAFIPS’96, pp. 524–527."
+   },
+   {
+    "key": "136368_CR15",
+    "volume-title": "Theory and Applications of Digital Signal Processing",
+    "author": "L.R. Rabiner",
+    "year": "1975",
+    "unstructured": "Rabiner, L.R. and Gold, B. (1975), Theory and Applications of Digital Signal Processing, Prentice-Hall, Englewood Cliffs, N.J.."
+   },
+   {
+    "key": "136368_CR16",
+    "volume-title": "Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution",
+    "author": "I. Rechenberg",
+    "year": "1973",
+    "unstructured": "Rechenberg, I. (1973), Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. Frommann-Holzboog, Stuttgart."
+   },
+   {
+    "key": "136368_CR17",
+    "unstructured": "Schwefel, H.P. (1995), Evolution and Optimum Seeking, John Wiley."
+   },
+   {
+    "key": "136368_CR18",
+    "unstructured": "Storn, R. (1995), Constrained Optimization, Dr. Dobb’s Journal, May 1995, 119–123."
+   },
+   {
+    "key": "136368_CR19",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Storn, R. (1996a), Differential Evolution Design of an IIR-Filter, IEEE International Conference on Evolutionary Computation(ICEC’96), May 1996, pp. 268–273.",
+    "DOI": "10.1109/ICEC.1996.542373"
+   },
+   {
+    "key": "136368_CR20",
+    "unstructured": "Storn, R. (1996b), On the Usage of Differential Evolution for Function Optimization, NAFIPS’96, pp. 519–523."
+   },
+   {
+    "key": "136368_CR21",
+    "unstructured": "Storn, R. (1996c), Design of an FIR-filter with Differential Evolution, private communication, 1996."
+   },
+   {
+    "key": "136368_CR22",
+    "series-title": "Lecture Notes in Computer Science",
+    "doi-asserted-by": "crossref",
+    "first-page": "123",
+    "DOI": "10.1007/3-540-59046-3_8",
+    "volume-title": "Soft Genetic Operators in Evolutionary Computation, Evolution and Biocomputation",
+    "author": "H.-M. Voigt",
+    "year": "1995",
+    "unstructured": "Voigt, H.-M. (1995), Soft Genetic Operators in Evolutionary Computation, Evolution and Biocomputation, Lecture Notes in Computer Science 899, Springer, Berlin, pp. 123–141."
+   },
+   {
+    "key": "136368_CR23",
+    "unstructured": "Zimmermann, W. (1990), Operations Research, Oldenbourg."
+   },
+   {
+    "key": "136368_CR24",
+    "unstructured": "Ziny, F., Optimization of routing control with Differential Evolution, private communication, 1995."
+   }
+  ],
+  "container-title": [
+   "Journal of Global Optimization"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1023/A:1008202821328.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/article/10.1023/A:1008202821328/fulltext.html",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1023/A:1008202821328.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     7,
+     1
+    ]
+   ],
+   "date-time": "2025-07-01T06:43:48Z",
+   "timestamp": 1751352228000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://link.springer.com/10.1023/A:1008202821328"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     1997,
+     12
+    ]
+   ]
+  },
+  "references-count": 24,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      1997,
+      12
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "136368"
+  ],
+  "URL": "https://doi.org/10.1023/a:1008202821328",
+  "relation": {},
+  "ISSN": [
+   "0925-5001",
+   "1573-2916"
+  ],
+  "issn-type": [
+   {
+    "value": "0925-5001",
+    "type": "print"
+   },
+   {
+    "value": "1573-2916",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     1997,
+     12
+    ]
+   ]
+  }
+ },
+ "cem": {
+  "DOI": "10.1007/s10479-005-5724-z",
+  "title": [
+   "A Tutorial on the Cross-Entropy Method"
+  ],
+  "author": [
+   {
+    "given": "Pieter-Tjerk",
+    "family": "de Boer",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dirk P.",
+    "family": "Kroese",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shie",
+    "family": "Mannor",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Reuven Y.",
+    "family": "Rubinstein",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Annals of Operations Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2005,
+     2
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "134",
+  "page": "19-67"
+ },
+ "eaai4": {
+  "DOI": "10.1016/j.engappai.2026.114645",
+  "type": "journal-article",
+  "page": "114645",
+  "title": [
+   "Integration of multiple constraint-treating approaches for uncertain automatic parking path optimization utilizing competition and cooperation-driven differential evolution"
+  ],
+  "volume": "175",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-0473-0804",
+    "authenticated-orcid": false,
+    "given": "Xiang",
+    "family": "Wu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Engineering Applications of Artificial Intelligence"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2026,
+     7
+    ]
+   ]
+  },
+  "article-number": "114645"
+ },
+ "cma": {
+  "DOI": "10.1162/106365601750190398",
+  "title": [
+   "Completely Derandomized Self-Adaptation in Evolution Strategies"
+  ],
+  "author": [
+   {
+    "given": "Nikolaus",
+    "family": "Hansen",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Technische Universität Berlin, Fachgebiet für Bionik, Sekr. ACK 1, Ackerstr. 71-76, 13355 Berlin, Germany,"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andreas",
+    "family": "Ostermeier",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Technische Universität Berlin, Fachgebiet für Bionik, Sekr. ACK 1, Ackerstr. 71-76, 13355 Berlin, Germany,"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Evolutionary Computation"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2001,
+     6
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "9",
+  "page": "159-195"
+ },
+ "cma2": {
+  "DOI": "10.1162/106365603321828970",
+  "title": [
+   "Reducing the Time Complexity of the Derandomized Evolution Strategy with Covariance Matrix Adaptation (CMA-ES)"
+  ],
+  "author": [
+   {
+    "given": "Nikolaus",
+    "family": "Hansen",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Fachgebiet für Bionik, Technische Universit¤at Berlin, Ackerstr. 71-76, 13355 Berlin, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sibylle D.",
+    "family": "Müller",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute of Computational Science, ETHZ Computational Laboratory (CoLab), Swiss Federal Institute of Technology, 8092 Zürich, Switzerland"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Petros",
+    "family": "Koumoutsakos",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Institute of Computational Science, ETHZ Computational Laboratory (CoLab), Swiss Federal Institute of Technology, 8092 Zürich, Switzerland"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Evolutionary Computation"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2003,
+     3
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "11",
+  "page": "1-18"
+ },
+ "cma3": {
+  "DOI": "10.1007/978-3-642-33206-7_8",
+  "title": [
+   "Principled Design of Continuous Stochastic Search: From Theory to Practice"
+  ],
+  "author": [
+   {
+    "given": "Nikolaus",
+    "family": "Hansen",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Anne",
+    "family": "Auger",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Natural Computing Series",
+   "Theory and Principled Methods for the Design of Metaheuristics"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2013,
+     11,
+     12
+    ]
+   ]
+  },
+  "type": "book-chapter",
+  "page": "145-180"
+ },
+ "quality": {
+  "DOI": "10.3389/frobt.2016.00040",
+  "title": [
+   "Quality Diversity: A New Frontier for Evolutionary Computation"
+  ],
+  "author": [
+   {
+    "given": "Justin K.",
+    "family": "Pugh",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lisa B.",
+    "family": "Soros",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kenneth O.",
+    "family": "Stanley",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Frontiers in Robotics and AI"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     7,
+     12
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "3"
+ },
+ "cvt": {
+  "DOI": "10.1109/tevc.2017.2735550",
+  "title": [
+   "Using Centroidal Voronoi Tessellations to Scale Up the Multidimensional Archive of Phenotypic Elites Algorithm"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-1336-5629",
+    "authenticated-orcid": false,
+    "given": "Vassilis",
+    "family": "Vassiliades",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Konstantinos",
+    "family": "Chatzilygeroudis",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jean-Baptiste",
+    "family": "Mouret",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Evolutionary Computation"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2018,
+     8
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "22",
+  "page": "623-630"
+ },
+ "cmame": {
+  "DOI": "10.1145/3377930.3390232",
+  "title": [
+   "Covariance matrix adaptation for the rapid illumination of behavior space"
+  ],
+  "author": [
+   {
+    "given": "Matthew C.",
+    "family": "Fontaine",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Southern California"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Julian",
+    "family": "Togelius",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "New York University"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Stefanos",
+    "family": "Nikolaidis",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Southern California"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Amy K.",
+    "family": "Hoover",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Ying Wu College of Computing New Jersey Institute of Technology"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Proceedings of the 2020 Genetic and Evolutionary Computation Conference"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2020,
+     6,
+     25
+    ]
+   ]
+  },
+  "type": "proceedings-article",
+  "page": "94-102"
+ },
+ "memap": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     9,
+     30
+    ]
+   ],
+   "date-time": "2026-09-30T16:49:03Z",
+   "timestamp": 1790786943929,
+   "version": "4.1.0"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 41,
+  "publisher": "ACM",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2021,
+       6,
+       26
+      ]
+     ],
+     "date-time": "2021-06-26T00:00:00Z",
+     "timestamp": 1624665600000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+   }
+  ],
+  "funder": [
+   {
+    "DOI": "10.13039/501100000266",
+    "name": "Engineering and Physical Sciences Research Council",
+    "doi-asserted-by": "publisher",
+    "award": [
+     "EP/V006673/1"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "EP/V006673/1"
+      ]
+     }
+    ],
+    "id": [
+     {
+      "id": "10.13039/501100000266",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "dl.acm.org"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2021,
+     6,
+     26
+    ]
+   ]
+  },
+  "DOI": "10.1145/3449639.3459326",
+  "type": "proceedings-article",
+  "created": {
+   "date-parts": [
+    [
+     2021,
+     6,
+     21
+    ]
+   ],
+   "date-time": "2021-06-21T17:51:58Z",
+   "timestamp": 1624297918000
+  },
+  "page": "84-92",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 32,
+  "title": [
+   "Multi-emitter MAP-elites"
+  ],
+  "prefix": "10.1145",
+  "author": [
+   {
+    "given": "Antoine",
+    "family": "Cully",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Imperial College London, London, United Kingdom"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "320",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     6,
+     26
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_3_2_1_1_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10898-004-9972-2"
+   },
+   {
+    "key": "e_1_3_2_1_2_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CIG.2019.8848022"
+   },
+   {
+    "key": "e_1_3_2_1_3_1",
+    "volume-title": "Finite-time analysis of the multiarmed bandit problem. Machine learning, 47(2-3):235--256",
+    "author": "Auer P.",
+    "year": "2002",
+    "unstructured": "Auer , P. , Cesa-Bianchi , N. , and Fischer , P . ( 2002 ). Finite-time analysis of the multiarmed bandit problem. Machine learning, 47(2-3):235--256 . Auer, P., Cesa-Bianchi, N., and Fischer, P. (2002). Finite-time analysis of the multiarmed bandit problem. Machine learning, 47(2-3):235--256."
+   },
+   {
+    "key": "e_1_3_2_1_4_1",
+    "first-page": "199",
+    "volume-title": "Advances in neural information processing systems",
+    "author": "Besbes O.",
+    "year": "2014",
+    "unstructured": "Besbes , O. , Gur , Y. , and Zeevi , A . ( 2014 ). Stochastic multi-armed-bandit problem with non-stationary rewards . In Advances in neural information processing systems , pages 199 -- 207 . Besbes, O., Gur, Y., and Zeevi, A. (2014). Stochastic multi-armed-bandit problem with non-stationary rewards. In Advances in neural information processing systems, pages 199--207."
+   },
+   {
+    "key": "e_1_3_2_1_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.swevo.2019.100627"
+   },
+   {
+    "key": "e_1_3_2_1_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1126/science.1133687"
+   },
+   {
+    "key": "e_1_3_2_1_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3321707.3321804"
+   },
+   {
+    "key": "e_1_3_2_1_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/nature14422"
+   },
+   {
+    "key": "e_1_3_2_1_9_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TEVC.2017.2704781"
+   },
+   {
+    "key": "e_1_3_2_1_10_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Cully A. and Mouret J.-B. (2015). Evolving a behavioral repertoire for a walking robot. Evolutionary Computation.  Cully A. and Mouret J.-B. (2015). Evolving a behavioral repertoire for a walking robot. Evolutionary Computation.",
+    "DOI": "10.1162/EVCO_a_00143"
+   },
+   {
+    "key": "e_1_3_2_1_11_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1143997.1144179"
+   },
+   {
+    "key": "e_1_3_2_1_12_1",
+    "volume-title": "Deepmind ai reduces google data centre cooling bill by 40%. DeepMind blog, 20:158",
+    "author": "Evans R.",
+    "year": "2016",
+    "unstructured": "Evans , R. and Gao , J . ( 2016 ). Deepmind ai reduces google data centre cooling bill by 40%. DeepMind blog, 20:158 . Evans, R. and Gao, J. (2016). Deepmind ai reduces google data centre cooling bill by 40%. DeepMind blog, 20:158."
+   },
+   {
+    "key": "e_1_3_2_1_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1162/isal_a_00316"
+   },
+   {
+    "key": "e_1_3_2_1_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3321707.3321794"
+   },
+   {
+    "key": "e_1_3_2_1_15_1",
+    "volume-title": "Proceedings of The Genetic and Evolutionary Computation Conference.",
+    "author": "Fontaine M. C.",
+    "year": "2020",
+    "unstructured": "Fontaine , M. C. , Togelius , J. , Nikolaidis , S. , and Hoover , A. K . ( 2020 ). Covariance matrix adaptation for the rapid illumination of behavior space . Proceedings of The Genetic and Evolutionary Computation Conference. Fontaine, M. C., Togelius, J., Nikolaidis, S., and Hoover, A. K. (2020). Covariance matrix adaptation for the rapid illumination of behavior space. Proceedings of The Genetic and Evolutionary Computation Conference."
+   },
+   {
+    "key": "e_1_3_2_1_16_1",
+    "first-page": "3330",
+    "volume-title": "18th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference",
+    "author": "Gaier A.",
+    "unstructured": "Gaier , A. , Asteroth , A. , and Mouret , J . -B. (2017). Aerodynamic design exploration through surrogate-assisted illumination . In 18th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference , page 3330 . Gaier, A., Asteroth, A., and Mouret, J.-B. (2017). Aerodynamic design exploration through surrogate-assisted illumination. In 18th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference, page 3330."
+   },
+   {
+    "key": "e_1_3_2_1_17_1",
+    "first-page": "1",
+    "volume-title": "-B. (2018). Data-efficient design exploration through surrogate-assisted illumination. Evolutionary computation",
+    "author": "Gaier A.",
+    "unstructured": "Gaier , A. , Asteroth , A. , and Mouret , J . -B. (2018). Data-efficient design exploration through surrogate-assisted illumination. Evolutionary computation , pages 1 -- 30 . Gaier, A., Asteroth, A., and Mouret, J.-B. (2018). Data-efficient design exploration through surrogate-assisted illumination. Evolutionary computation, pages 1--30."
+   },
+   {
+    "key": "e_1_3_2_1_18_1",
+    "first-page": "115",
+    "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+    "author": "Gaier A.",
+    "unstructured": "Gaier , A. , Asteroth , A. , and Mouret , J . -B. (2019). Are quality diversity algorithms better at generating stepping stones than objective-based search ? In Proceedings of the Genetic and Evolutionary Computation Conference Companion , pages 115 -- 116 . Gaier, A., Asteroth, A., and Mouret, J.-B. (2019). Are quality diversity algorithms better at generating stepping stones than objective-based search? In Proceedings of the Genetic and Evolutionary Computation Conference Companion, pages 115--116."
+   },
+   {
+    "key": "e_1_3_2_1_19_1",
+    "volume-title": "Proceedings of the 2020 Genetic and Evolutionary Computation Conference.",
+    "author": "Gaier A.",
+    "unstructured": "Gaier , A. , Asteroth , A. , and Mouret , J . -B. (2020). Discovering representations for black-box optimization . Proceedings of the 2020 Genetic and Evolutionary Computation Conference. Gaier, A., Asteroth, A., and Mouret, J.-B. (2020). Discovering representations for black-box optimization. Proceedings of the 2020 Genetic and Evolutionary Computation Conference."
+   },
+   {
+    "key": "e_1_3_2_1_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-642-24412-4_16"
+   },
+   {
+    "key": "e_1_3_2_1_21_1",
+    "volume-title": "The cma evolution strategy: A tutorial. arXiv preprint arXiv:1604.00772",
+    "author": "Hansen N.",
+    "year": "2016",
+    "unstructured": "Hansen , N. ( 2016 ). The cma evolution strategy: A tutorial. arXiv preprint arXiv:1604.00772 . Hansen, N. (2016). The cma evolution strategy: A tutorial. arXiv preprint arXiv:1604.00772."
+   },
+   {
+    "key": "e_1_3_2_1_22_1",
+    "volume-title": "Completely derandomized self-adaptation in evolution strategies. Evolutionary computation, 9(2):159--195",
+    "author": "Hansen N.",
+    "year": "2001",
+    "unstructured": "Hansen , N. and Ostermeier , A . ( 2001 ). Completely derandomized self-adaptation in evolution strategies. Evolutionary computation, 9(2):159--195 . Hansen, N. and Ostermeier, A. (2001). Completely derandomized self-adaptation in evolution strategies. Evolutionary computation, 9(2):159--195."
+   },
+   {
+    "key": "e_1_3_2_1_23_1",
+    "first-page": "121",
+    "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+    "author": "Justesen N.",
+    "unstructured": "Justesen , N. , Risi , S. , and Mouret , J . -B. (2019). Map-elites for noisy domains by adaptive sampling . In Proceedings of the Genetic and Evolutionary Computation Conference Companion , pages 121 -- 122 . ACM. Justesen, N., Risi, S., and Mouret, J.-B. (2019). Map-elites for noisy domains by adaptive sampling. In Proceedings of the Genetic and Evolutionary Computation Conference Companion, pages 121--122. ACM."
+   },
+   {
+    "key": "e_1_3_2_1_24_1",
+    "volume-title": "The artificial intelligence clinician learns optimal treatment strategies for sepsis in intensive care. Nature medicine, 24(11):1716--1720",
+    "author": "Komorowski M.",
+    "year": "2018",
+    "unstructured": "Komorowski , M. , Celi , L. A. , Badawi , O. , Gordon , A. C. , and Faisal , A. A . ( 2018 ). The artificial intelligence clinician learns optimal treatment strategies for sepsis in intensive care. Nature medicine, 24(11):1716--1720 . Komorowski, M., Celi, L. A., Badawi, O., Gordon, A. C., and Faisal, A. A. (2018). The artificial intelligence clinician learns optimal treatment strategies for sepsis in intensive care. Nature medicine, 24(11):1716--1720."
+   },
+   {
+    "key": "e_1_3_2_1_25_1",
+    "volume-title": "Singularity: Scientific containers for mobility of compute. PloS one, 12(5)",
+    "author": "Kurtzer G. M.",
+    "year": "2017",
+    "unstructured": "Kurtzer , G. M. , Sochat , V. , and Bauer , M. W . ( 2017 ). Singularity: Scientific containers for mobility of compute. PloS one, 12(5) . Kurtzer, G. M., Sochat, V., and Bauer, M. W. (2017). Singularity: Scientific containers for mobility of compute. PloS one, 12(5)."
+   },
+   {
+    "key": "e_1_3_2_1_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.21105/joss.00500"
+   },
+   {
+    "key": "e_1_3_2_1_27_1",
+    "volume-title": "Abandoning objectives: Evolution through the search for novelty alone. Evolutionary computation, 19(2):189--223",
+    "author": "Lehman J.",
+    "year": "2011",
+    "unstructured": "Lehman , J. and Stanley , K. O . ( 2011 a). Abandoning objectives: Evolution through the search for novelty alone. Evolutionary computation, 19(2):189--223 . Lehman, J. and Stanley, K. O. (2011a). Abandoning objectives: Evolution through the search for novelty alone. Evolutionary computation, 19(2):189--223."
+   },
+   {
+    "key": "e_1_3_2_1_28_1",
+    "first-page": "211",
+    "volume-title": "Proceedings of the 13th annual conference on Genetic and evolutionary computation",
+    "author": "Lehman J.",
+    "unstructured": "Lehman , J. and Stanley , K. O . (2011b). Evolving a diversity of virtual creatures through novelty search and local competition . In Proceedings of the 13th annual conference on Genetic and evolutionary computation , pages 211 -- 218 . ACM. Lehman, J. and Stanley, K. O. (2011b). Evolving a diversity of virtual creatures through novelty search and local competition. In Proceedings of the 13th annual conference on Genetic and evolutionary computation, pages 211--218. ACM."
+   },
+   {
+    "key": "e_1_3_2_1_29_1",
+    "volume-title": "Illuminating search spaces by mapping elites. arXiv preprint arXiv:1504.04909",
+    "author": "Mouret J.-B.",
+    "year": "2015",
+    "unstructured": "Mouret , J.-B. and Clune , J . ( 2015 ). Illuminating search spaces by mapping elites. arXiv preprint arXiv:1504.04909 . Mouret, J.-B. and Clune, J. (2015). Illuminating search spaces by mapping elites. arXiv preprint arXiv:1504.04909."
+   },
+   {
+    "key": "e_1_3_2_1_30_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CEC.2010.5586158"
+   },
+   {
+    "key": "e_1_3_2_1_31_1",
+    "volume-title": "The parallel genetic algorithm as function optimizer. Parallel computing, 17(6-7):619--632",
+    "author": "Mühlenbein H.",
+    "year": "1991",
+    "unstructured": "Mühlenbein , H. , Schomisch , M. , and Born , J . ( 1991 ). The parallel genetic algorithm as function optimizer. Parallel computing, 17(6-7):619--632 . Mühlenbein, H., Schomisch, M., and Born, J. (1991). The parallel genetic algorithm as function optimizer. Parallel computing, 17(6-7):619--632."
+   },
+   {
+    "key": "e_1_3_2_1_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.5555/2602453"
+   },
+   {
+    "key": "e_1_3_2_1_33_1",
+    "volume-title": "Unsupervised learning and exploration of reachable outcome space. algorithms, 24:25",
+    "author": "Paolo G.",
+    "year": "2019",
+    "unstructured": "Paolo , G. , Laflaquiere , A. , Coninx , A. , and Doncieux , S . ( 2019 ). Unsupervised learning and exploration of reachable outcome space. algorithms, 24:25 . Paolo, G., Laflaquiere, A., Coninx, A., and Doncieux, S. (2019). Unsupervised learning and exploration of reachable outcome space. algorithms, 24:25."
+   },
+   {
+    "key": "e_1_3_2_1_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/2739480.2754664"
+   },
+   {
+    "key": "e_1_3_2_1_35_1",
+    "first-page": "63",
+    "volume-title": "Summer School on Machine Learning",
+    "author": "Rasmussen C. E.",
+    "year": "2003",
+    "unstructured": "Rasmussen , C. E. ( 2003 ). Gaussian processes in machine learning . In Summer School on Machine Learning , pages 63 -- 71 . Springer . Rasmussen, C. E. (2003). Gaussian processes in machine learning. In Summer School on Machine Learning, pages 63--71. Springer."
+   },
+   {
+    "key": "e_1_3_2_1_36_1",
+    "volume-title": "Multiple hypothesis testing. Annual review of psychology, 46(1):561--584",
+    "author": "Shaffer J. P.",
+    "year": "1995",
+    "unstructured": "Shaffer , J. P. ( 1995 ). Multiple hypothesis testing. Annual review of psychology, 46(1):561--584 . Shaffer, J. P. (1995). Multiple hypothesis testing. Annual review of psychology, 46(1):561--584."
+   },
+   {
+    "key": "e_1_3_2_1_37_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.5555/3002858"
+   },
+   {
+    "key": "e_1_3_2_1_38_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-642-16108-7_30"
+   },
+   {
+    "key": "e_1_3_2_1_39_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-030-16692-2_4"
+   },
+   {
+    "key": "e_1_3_2_1_40_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TEVC.2017.2735550"
+   },
+   {
+    "key": "e_1_3_2_1_41_1",
+    "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference.",
+    "author": "Vassiliades V.",
+    "unstructured": "Vassiliades , V. and Mouret , J . -B. (2018). Discovering the elite hypervolume by leveraging interspecies correlation . Proceedings of the Genetic and Evolutionary Computation Conference. Vassiliades, V. and Mouret, J.-B. (2018). Discovering the elite hypervolume by leveraging interspecies correlation. Proceedings of the Genetic and Evolutionary Computation Conference."
+   }
+  ],
+  "event": {
+   "name": "GECCO '21: Genetic and Evolutionary Computation Conference",
+   "location": "Lille France",
+   "acronym": "GECCO '21",
+   "sponsor": [
+    "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+   ]
+  },
+  "container-title": [
+   "Proceedings of the Genetic and Evolutionary Computation Conference"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "https://dl.acm.org/doi/10.1145/3449639.3459326",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://dl.acm.org/doi/pdf/10.1145/3449639.3459326",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     17
+    ]
+   ],
+   "date-time": "2025-06-17T21:28:09Z",
+   "timestamp": 1750195689000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://dl.acm.org/doi/10.1145/3449639.3459326"
+   }
+  },
+  "subtitle": [
+   "improving quality, diversity and data efficiency with heterogeneous sets of emitters"
+  ],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     6,
+     26
+    ]
+   ]
+  },
+  "references-count": 41,
+  "alternative-id": [
+   "10.1145/3449639.3459326",
+   "10.1145/3449639"
+  ],
+  "URL": "https://doi.org/10.1145/3449639.3459326",
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2021,
+     6,
+     26
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2021-06-26",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ },
+ "cmamae": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     23
+    ]
+   ],
+   "date-time": "2026-10-23T20:30:27Z",
+   "timestamp": 1792787427903,
+   "version": "4.5.0"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 80,
+  "publisher": "ACM",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2023,
+       7,
+       12
+      ]
+     ],
+     "date-time": "2023-07-12T00:00:00Z",
+     "timestamp": 1689120000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "funder": [
+   {
+    "name": "NSF",
+    "award": [
+     "2145077"
+    ],
+    "award-info": [
+     {
+      "award-number": [
+       "2145077"
+      ]
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "dl.acm.org"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+   "date-parts": [
+    [
+     2023,
+     7,
+     15
+    ]
+   ]
+  },
+  "DOI": "10.1145/3583131.3590389",
+  "type": "proceedings-article",
+  "created": {
+   "date-parts": [
+    [
+     2023,
+     7,
+     12
+    ]
+   ],
+   "date-time": "2023-07-12T15:40:19Z",
+   "timestamp": 1689176419000
+  },
+  "page": "456-465",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 28,
+  "title": [
+   "Covariance Matrix Adaptation MAP-Annealing"
+  ],
+  "prefix": "10.1145",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-9354-196X",
+    "authenticated-orcid": false,
+    "given": "Matthew",
+    "family": "Fontaine",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Southern California, Los Angeles, United States of America"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8617-3871",
+    "authenticated-orcid": false,
+    "given": "Stefanos",
+    "family": "Nikolaidis",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Southern California, Los Angeles, United States of America"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "320",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     7,
+     12
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "e_1_3_2_2_1_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-642-15844-5_16"
+   },
+   {
+    "key": "e_1_3_2_2_2_1",
+    "volume-title": "Simulated annealing. Statistical science 8, 1",
+    "author": "Bertsimas D.",
+    "year": "1993",
+    "unstructured": "Bertsimas , D. , and Tsitsiklis , J . Simulated annealing. Statistical science 8, 1 ( 1993 ), 10--15. Bertsimas, D., and Tsitsiklis, J. Simulated annealing. Statistical science 8, 1 (1993), 10--15."
+   },
+   {
+    "key": "e_1_3_2_2_3_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ICASSP40776.2020.9053146"
+   },
+   {
+    "key": "e_1_3_2_2_4_1",
+    "volume-title": "Deep surrogate assisted generation of environments. Advances in Neural Information Processing Systems",
+    "author": "Bhatt V.",
+    "year": "2022",
+    "unstructured": "Bhatt , V. , Tjanaka , B. , Fontaine , M. , and Nikolaidis , S . Deep surrogate assisted generation of environments. Advances in Neural Information Processing Systems ( 2022 ). Bhatt, V., Tjanaka, B., Fontaine, M., and Nikolaidis, S. Deep surrogate assisted generation of environments. Advances in Neural Information Processing Systems (2022)."
+   },
+   {
+    "key": "e_1_3_2_2_5_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3071178.3071186"
+   },
+   {
+    "key": "e_1_3_2_2_6_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3377930.3389809"
+   },
+   {
+    "key": "e_1_3_2_2_7_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/SSCI44817.2019.9003047"
+   },
+   {
+    "key": "e_1_3_2_2_8_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-030-66515-9_4"
+   },
+   {
+    "key": "e_1_3_2_2_9_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3449639.3459383"
+   },
+   {
+    "key": "e_1_3_2_2_10_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3377930.3390217"
+   },
+   {
+    "key": "e_1_3_2_2_11_1",
+    "volume-title": "Improving exploration in evolution strategies for deep reinforcement learning via a population of novelty-seeking agents. Advances in neural information processing systems 31",
+    "author": "Conti E.",
+    "year": "2018",
+    "unstructured": "Conti , E. , Madhavan , V. , Petroski Such , F. , Lehman , J. , Stanley , K. , and Clune , J . Improving exploration in evolution strategies for deep reinforcement learning via a population of novelty-seeking agents. Advances in neural information processing systems 31 ( 2018 ). Conti, E., Madhavan, V., Petroski Such, F., Lehman, J., Stanley, K., and Clune, J. Improving exploration in evolution strategies for deep reinforcement learning via a population of novelty-seeking agents. Advances in neural information processing systems 31 (2018)."
+   },
+   {
+    "key": "e_1_3_2_2_12_1",
+    "volume-title": "Vqgan-clip: Open domain image generation and editing with natural language guidance. arXiv preprint arXiv:2204.08583",
+    "author": "Crowson K.",
+    "year": "2022",
+    "unstructured": "Crowson , K. , Biderman , S. , Kornis , D. , Stander , D. , Hallahan , E. , Castricato , L. , and Raff , E . Vqgan-clip: Open domain image generation and editing with natural language guidance. arXiv preprint arXiv:2204.08583 ( 2022 ). Crowson, K., Biderman, S., Kornis, D., Stander, D., Hallahan, E., Castricato, L., and Raff, E. Vqgan-clip: Open domain image generation and editing with natural language guidance. arXiv preprint arXiv:2204.08583 (2022)."
+   },
+   {
+    "key": "e_1_3_2_2_13_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3321707.3321804"
+   },
+   {
+    "key": "e_1_3_2_2_14_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3449639.3459326"
+   },
+   {
+    "key": "e_1_3_2_2_15_1",
+    "volume-title": "-B. Robots that can adapt like animals. Nature 521, 7553",
+    "author": "Cully A.",
+    "year": "2015",
+    "unstructured": "Cully , A. , Clune , J. , Tarapore , D. , and Mouret , J . -B. Robots that can adapt like animals. Nature 521, 7553 ( 2015 ), 503. Cully, A., Clune, J., Tarapore, D., and Mouret, J.-B. Robots that can adapt like animals. Nature 521, 7553 (2015), 503."
+   },
+   {
+    "key": "e_1_3_2_2_16_1",
+    "first-page": "2",
+    "article-title": "Quality and diversity optimization: A unifying modular framework",
+    "volume": "22",
+    "author": "Cully A.",
+    "year": "2017",
+    "unstructured": "Cully , A. , and Demiris , Y . Quality and diversity optimization: A unifying modular framework . IEEE Transactions on Evolutionary Computation 22 , 2 ( 2017 ), 245--259. Cully, A., and Demiris, Y. Quality and diversity optimization: A unifying modular framework. IEEE Transactions on Evolutionary Computation 22, 2 (2017), 245--259.",
+    "journal-title": "IEEE Transactions on Evolutionary Computation"
+   },
+   {
+    "key": "e_1_3_2_2_17_1",
+    "volume-title": "Illuminating diverse neural cellular automata for level generation. arXiv preprint arXiv:2109.05489",
+    "author": "Earle S.",
+    "year": "2021",
+    "unstructured": "Earle , S. , Snider , J. , Fontaine , M. C. , Nikolaidis , S. , and Togelius , J . Illuminating diverse neural cellular automata for level generation. arXiv preprint arXiv:2109.05489 ( 2021 ). Earle, S., Snider, J., Fontaine, M. C., Nikolaidis, S., and Togelius, J. Illuminating diverse neural cellular automata for level generation. arXiv preprint arXiv:2109.05489 (2021)."
+   },
+   {
+    "key": "e_1_3_2_2_18_1",
+    "volume-title": "Open questions in creating safe open-ended ai: tensions between control and creativity. arXiv preprint arXiv:2006.07495",
+    "author": "Ecoffet A.",
+    "year": "2020",
+    "unstructured": "Ecoffet , A. , Clune , J. , and Lehman , J . Open questions in creating safe open-ended ai: tensions between control and creativity. arXiv preprint arXiv:2006.07495 ( 2020 ). Ecoffet, A., Clune, J., and Lehman, J. Open questions in creating safe open-ended ai: tensions between control and creativity. arXiv preprint arXiv:2006.07495 (2020)."
+   },
+   {
+    "key": "e_1_3_2_2_19_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1090/jams/852"
+   },
+   {
+    "key": "e_1_3_2_2_20_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.15607/RSS.2021.XVII.038"
+   },
+   {
+    "key": "e_1_3_2_2_21_1",
+    "first-page": "34",
+    "article-title": "Differentiable quality diversity",
+    "author": "Fontaine M.",
+    "year": "2021",
+    "unstructured": "Fontaine , M. , and Nikolaidis , S . Differentiable quality diversity . Advances in Neural Information Processing Systems 34 ( 2021 ). Fontaine, M., and Nikolaidis, S. Differentiable quality diversity. Advances in Neural Information Processing Systems 34 (2021).",
+    "journal-title": "Advances in Neural Information Processing Systems"
+   },
+   {
+    "key": "e_1_3_2_2_22_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.15607/RSS.2021.XVII.036"
+   },
+   {
+    "key": "e_1_3_2_2_23_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3321707.3321794"
+   },
+   {
+    "key": "e_1_3_2_2_24_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1609/aaai.v35i7.16740"
+   },
+   {
+    "key": "e_1_3_2_2_25_1",
+    "volume-title": "International Journal of Human-Robot Interaction (jul",
+    "author": "Fontaine M. C.",
+    "year": "2021",
+    "unstructured": "Fontaine , M. C. , and Nikolaidis , S . Evaluating human-robot interaction algorithms in shared autonomy via quality diversity scenario generation . International Journal of Human-Robot Interaction (jul 2021 ). Fontaine, M. C., and Nikolaidis, S. Evaluating human-robot interaction algorithms in shared autonomy via quality diversity scenario generation. International Journal of Human-Robot Interaction (jul 2021)."
+   },
+   {
+    "key": "e_1_3_2_2_26_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3377930.3390232"
+   },
+   {
+    "key": "e_1_3_2_2_27_1",
+    "volume-title": "Clipdraw: Exploring text-to-drawing synthesis through language-image encoders. arXiv preprint arXiv:2106.14843",
+    "author": "Frans K.",
+    "year": "2021",
+    "unstructured": "Frans , K. , Soros , L. , and Witkowski , O . Clipdraw: Exploring text-to-drawing synthesis through language-image encoders. arXiv preprint arXiv:2106.14843 ( 2021 ). Frans, K., Soros, L., and Witkowski, O. Clipdraw: Exploring text-to-drawing synthesis through language-image encoders. arXiv preprint arXiv:2106.14843 (2021)."
+   },
+   {
+    "key": "e_1_3_2_2_28_1",
+    "volume-title": "-B. Data-efficient design exploration through surrogate-assisted illumination. Evolutionary computation 26, 3",
+    "author": "Gaier A.",
+    "year": "2018",
+    "unstructured": "Gaier , A. , Asteroth , A. , and Mouret , J . -B. Data-efficient design exploration through surrogate-assisted illumination. Evolutionary computation 26, 3 ( 2018 ), 381--410. Gaier, A., Asteroth, A., and Mouret, J.-B. Data-efficient design exploration through surrogate-assisted illumination. Evolutionary computation 26, 3 (2018), 381--410."
+   },
+   {
+    "key": "e_1_3_2_2_29_1",
+    "first-page": "103",
+    "volume-title": "Proceedings of the 2020 Genetic and Evolutionary Computation Conference (New York, NY, USA, 2020), GECCO '20, Association for Computing Machinery",
+    "author": "Gaier A.",
+    "unstructured": "Gaier , A. , Asteroth , A. , and Mouret , J . -B. Discovering representations for black-box optimization . In Proceedings of the 2020 Genetic and Evolutionary Computation Conference (New York, NY, USA, 2020), GECCO '20, Association for Computing Machinery , p. 103 -- 111 . Gaier, A., Asteroth, A., and Mouret, J.-B. Discovering representations for black-box optimization. In Proceedings of the 2020 Genetic and Evolutionary Computation Conference (New York, NY, USA, 2020), GECCO '20, Association for Computing Machinery, p. 103--111."
+   },
+   {
+    "key": "e_1_3_2_2_30_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1063/1.4822863"
+   },
+   {
+    "key": "e_1_3_2_2_31_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CIG.2019.8848053"
+   },
+   {
+    "key": "e_1_3_2_2_32_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3512290.3528837"
+   },
+   {
+    "key": "e_1_3_2_2_33_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3449639.3459287"
+   },
+   {
+    "key": "e_1_3_2_2_34_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-030-58112-1_10"
+   },
+   {
+    "key": "e_1_3_2_2_35_1",
+    "volume-title": "The cma evolution strategy: A tutorial. arXiv preprint arXiv:1604.00772",
+    "author": "Hansen N.",
+    "year": "2016",
+    "unstructured": "Hansen , N. The cma evolution strategy: A tutorial. arXiv preprint arXiv:1604.00772 ( 2016 ). Hansen, N. The cma evolution strategy: A tutorial. arXiv preprint arXiv:1604.00772 (2016)."
+   },
+   {
+    "key": "e_1_3_2_2_36_1",
+    "unstructured": "Hansen N. Auger A. Mersmann O. Tusar T. and Brockhoff D. Coco: A platform for comparing continuous optimizers in a black-box setting.  Hansen N. Auger A. Mersmann O. Tusar T. and Brockhoff D. Coco: A platform for comparing continuous optimizers in a black-box setting."
+   },
+   {
+    "key": "e_1_3_2_2_37_1",
+    "first-page": "1689",
+    "volume-title": "Comparing results of 31 algorithms from the black-box optimization benchmarking bbob-2009",
+    "author": "Hansen N.",
+    "unstructured": "Hansen , N. , Auger , A. , Ros , R. , Finck , S. , and Pošík , P . Comparing results of 31 algorithms from the black-box optimization benchmarking bbob-2009 . pp. 1689 -- 1696 . Hansen, N., Auger, A., Ros, R., Finck, S., and Pošík, P. Comparing results of 31 algorithms from the black-box optimization benchmarking bbob-2009. pp. 1689--1696."
+   },
+   {
+    "key": "e_1_3_2_2_38_1",
+    "volume-title": "Reducing the time complexity of the derandomized evolution strategy with covariance matrix adaptation (cma-es). Evolutionary computation 11, 1",
+    "author": "Hansen N.",
+    "year": "2003",
+    "unstructured": "Hansen , N. , Müller , S. D. , and Koumoutsakos , P . Reducing the time complexity of the derandomized evolution strategy with covariance matrix adaptation (cma-es). Evolutionary computation 11, 1 ( 2003 ), 1--18. Hansen, N., Müller, S. D., and Koumoutsakos, P. Reducing the time complexity of the derandomized evolution strategy with covariance matrix adaptation (cma-es). Evolutionary computation 11, 1 (2003), 1--18."
+   },
+   {
+    "key": "e_1_3_2_2_39_1",
+    "first-page": "650",
+    "article-title": "Convergence properties of evolution strategies with the derandomized covariance matrix adaptation: The (/i,)-es",
+    "volume": "97",
+    "author": "Hansen N.",
+    "year": "1997",
+    "unstructured": "Hansen , N. , and Ostermeier , A . Convergence properties of evolution strategies with the derandomized covariance matrix adaptation: The (/i,)-es . Eufit 97 ( 1997 ), 650 -- 654 . Hansen, N., and Ostermeier, A. Convergence properties of evolution strategies with the derandomized covariance matrix adaptation: The (/i,)-es. Eufit 97 (1997), 650--654.",
+    "journal-title": "Eufit"
+   },
+   {
+    "key": "e_1_3_2_2_40_1",
+    "volume-title": "Unsolved problems in ml safety. arXiv preprint arXiv:2109.13916",
+    "author": "Hendrycks D.",
+    "year": "2021",
+    "unstructured": "Hendrycks , D. , Carlini , N. , Schulman , J. , and Steinhardt , J . Unsolved problems in ml safety. arXiv preprint arXiv:2109.13916 ( 2021 ). Hendrycks, D., Carlini, N., Schulman, J., and Steinhardt, J. Unsolved problems in ml safety. arXiv preprint arXiv:2109.13916 (2021)."
+   },
+   {
+    "key": "e_1_3_2_2_41_1",
+    "volume-title": "Generative models as a data source for multiview representation learning. arXiv preprint arXiv:2106.05258",
+    "author": "Jahanian A.",
+    "year": "2021",
+    "unstructured": "Jahanian , A. , Puig , X. , Tian , Y. , and Isola , P . Generative models as a data source for multiview representation learning. arXiv preprint arXiv:2106.05258 ( 2021 ). Jahanian, A., Puig, X., Tian, Y., and Isola, P. Generative models as a data source for multiview representation learning. arXiv preprint arXiv:2106.05258 (2021)."
+   },
+   {
+    "key": "e_1_3_2_2_42_1",
+    "volume-title": "Imperfect imaganation: Implications of gans exacerbating biases on facial data augmentation and snapchat selfie lenses. arXiv preprint arXiv:2001.09528",
+    "author": "Jain N.",
+    "year": "2020",
+    "unstructured": "Jain , N. , Olmo , A. , Sengupta , S. , Manikonda , L. , and Kambhampati , S . Imperfect imaganation: Implications of gans exacerbating biases on facial data augmentation and snapchat selfie lenses. arXiv preprint arXiv:2001.09528 ( 2020 ). Jain, N., Olmo, A., Sengupta, S., Manikonda, L., and Kambhampati, S. Imperfect imaganation: Implications of gans exacerbating biases on facial data augmentation and snapchat selfie lenses. arXiv preprint arXiv:2001.09528 (2020)."
+   },
+   {
+    "key": "e_1_3_2_2_43_1",
+    "volume-title": "Continuous univariate distributions",
+    "author": "Johnson N. L.",
+    "year": "1995",
+    "unstructured": "Johnson , N. L. , Kotz , S. , and Balakrishnan , N . Continuous univariate distributions , volume 2 , vol. 289. John wiley & sons, 1995 . Johnson, N. L., Kotz, S., and Balakrishnan, N. Continuous univariate distributions, volume 2, vol. 289. John wiley & sons, 1995."
+   },
+   {
+    "key": "e_1_3_2_2_44_1",
+    "volume-title": "Proc. NeurIPS",
+    "author": "Karras T.",
+    "year": "2020",
+    "unstructured": "Karras , T. , Aittala , M. , Hellsten , J. , Laine , S. , Lehtinen , J. , and Aila , T . Training generative adversarial networks with limited data . In Proc. NeurIPS ( 2020 ). Karras, T., Aittala, M., Hellsten, J., Laine, S., Lehtinen, J., and Aila, T. Training generative adversarial networks with limited data. In Proc. NeurIPS (2020)."
+   },
+   {
+    "key": "e_1_3_2_2_45_1",
+    "volume-title": "Proc. NeurIPS",
+    "author": "Karras T.",
+    "year": "2021",
+    "unstructured": "Karras , T. , Aittala , M. , Laine , S. , Härkönen , E. , Hellsten , J. , Lehtinen , J. , and Aila , T . Alias-free generative adversarial networks . In Proc. NeurIPS ( 2021 ). Karras, T., Aittala, M., Laine, S., Härkönen, E., Hellsten, J., Lehtinen, J., and Aila, T. Alias-free generative adversarial networks. In Proc. NeurIPS (2021)."
+   },
+   {
+    "key": "e_1_3_2_2_46_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CVPR.2019.00453"
+   },
+   {
+    "key": "e_1_3_2_2_47_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CVPR42600.2020.00813"
+   },
+   {
+    "key": "e_1_3_2_2_48_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/IROS45743.2020.9340794"
+   },
+   {
+    "key": "e_1_3_2_2_49_1",
+    "volume-title": "Bop-elites, a bayesian optimisation algorithm for quality-diversity search. arXiv preprint arXiv:2005.04320",
+    "author": "Kent P.",
+    "year": "2020",
+    "unstructured": "Kent , P. , and Branke , J . Bop-elites, a bayesian optimisation algorithm for quality-diversity search. arXiv preprint arXiv:2005.04320 ( 2020 ). Kent, P., and Branke, J. Bop-elites, a bayesian optimisation algorithm for quality-diversity search. arXiv preprint arXiv:2005.04320 (2020)."
+   },
+   {
+    "key": "e_1_3_2_2_50_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3205455.3205470"
+   },
+   {
+    "key": "e_1_3_2_2_51_1",
+    "volume-title": "3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7--9, 2015, Conference Track Proceedings",
+    "author": "Kingma D. P.",
+    "year": "2015",
+    "unstructured": "Kingma , D. P. , and Ba , J . Adam: A method for stochastic optimization . In 3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7--9, 2015, Conference Track Proceedings ( 2015 ). Kingma, D. P., and Ba, J. Adam: A method for stochastic optimization. In 3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7--9, 2015, Conference Track Proceedings (2015)."
+   },
+   {
+    "key": "e_1_3_2_2_52_1",
+    "volume-title": "The surprising creativity of digital evolution: A collection of anecdotes from the evolutionary computation and artificial life research communities. Artificial life 26, 2",
+    "author": "Lehman J.",
+    "year": "2020",
+    "unstructured": "Lehman , J. , Clune , J. , Misevic , D. , Adami , C. , Altenberg , L. , Beaulieu , J. , Bentley , P. J. , Bernard , S. , Beslon , G. , Bryson , D. M. , The surprising creativity of digital evolution: A collection of anecdotes from the evolutionary computation and artificial life research communities. Artificial life 26, 2 ( 2020 ), 274--306. Lehman, J., Clune, J., Misevic, D., Adami, C., Altenberg, L., Beaulieu, J., Bentley, P. J., Bernard, S., Beslon, G., Bryson, D. M., et al. The surprising creativity of digital evolution: A collection of anecdotes from the evolutionary computation and artificial life research communities. Artificial life 26, 2 (2020), 274--306."
+   },
+   {
+    "key": "e_1_3_2_2_53_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1830483.1830503"
+   },
+   {
+    "key": "e_1_3_2_2_54_1",
+    "volume-title": "Abandoning objectives: Evolution through the search for novelty alone. Evolutionary computation 19, 2",
+    "author": "Lehman J.",
+    "year": "2011",
+    "unstructured": "Lehman , J. , and Stanley , K. O . Abandoning objectives: Evolution through the search for novelty alone. Evolutionary computation 19, 2 ( 2011 ), 189--223. Lehman, J., and Stanley, K. O. Abandoning objectives: Evolution through the search for novelty alone. Evolutionary computation 19, 2 (2011), 189--223."
+   },
+   {
+    "key": "e_1_3_2_2_55_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/2001576.2001606"
+   },
+   {
+    "key": "e_1_3_2_2_56_1",
+    "volume-title": "ICLR Workshop on Agent Learning in Open-Endedness",
+    "author": "Lim B.",
+    "year": "2022",
+    "unstructured": "Lim , B. , Allard , M. , Grillotti , L. , and Cully , A . Accelerated quality-diversity for robotics through massive parallelism . In ICLR Workshop on Agent Learning in Open-Endedness ( 2022 ). Lim, B., Allard, M., Grillotti, L., and Cully, A. Accelerated quality-diversity for robotics through massive parallelism. In ICLR Workshop on Agent Learning in Open-Endedness (2022)."
+   },
+   {
+    "key": "e_1_3_2_2_57_1",
+    "volume-title": "Dynamics-aware quality-diversity for efficient learning of skill repertoires. ArXiv abs/2109.08522",
+    "author": "Lim B.",
+    "year": "2021",
+    "unstructured": "Lim , B. , Grillotti , L. , Bernasconi , L. , and Cully , A . Dynamics-aware quality-diversity for efficient learning of skill repertoires. ArXiv abs/2109.08522 ( 2021 ). Lim, B., Grillotti, L., Bernasconi, L., and Cully, A. Dynamics-aware quality-diversity for efficient learning of skill repertoires. ArXiv abs/2109.08522 (2021)."
+   },
+   {
+    "key": "e_1_3_2_2_58_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/CVPR42600.2020.00251"
+   },
+   {
+    "key": "e_1_3_2_2_59_1",
+    "volume-title": "Illuminating search spaces by mapping elites. arXiv preprint arXiv:1504.04909",
+    "author": "Mouret J.-B.",
+    "year": "2015",
+    "unstructured": "Mouret , J.-B. , and Clune , J . Illuminating search spaces by mapping elites. arXiv preprint arXiv:1504.04909 ( 2015 ). Mouret, J.-B., and Clune, J. Illuminating search spaces by mapping elites. arXiv preprint arXiv:1504.04909 (2015)."
+   },
+   {
+    "key": "e_1_3_2_2_60_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3449639.3459304"
+   },
+   {
+    "key": "e_1_3_2_2_61_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1162/isal_a_00110"
+   },
+   {
+    "key": "e_1_3_2_2_62_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3449639.3459314"
+   },
+   {
+    "key": "e_1_3_2_2_63_1",
+    "first-page": "18050",
+    "volume-title": "Advances in Neural Information Processing Systems",
+    "author": "Parker-Holder J.",
+    "year": "2020",
+    "unstructured": "Parker-Holder , J. , Pacchiano , A. , Choromanski , K. M. , and Roberts , S. J . Effective diversity in population based reinforcement learning . In Advances in Neural Information Processing Systems ( 2020 ), H. Larochelle, M. Ranzato, R. Hadsell, M. F. Balcan, and H. Lin, Eds., vol. 33 , Curran Associates, Inc ., pp. 18050 -- 18062 . Parker-Holder, J., Pacchiano, A., Choromanski, K. M., and Roberts, S. J. Effective diversity in population based reinforcement learning. In Advances in Neural Information Processing Systems (2020), H. Larochelle, M. Ranzato, R. Hadsell, M. F. Balcan, and H. Lin, Eds., vol. 33, Curran Associates, Inc., pp. 18050--18062."
+   },
+   {
+    "key": "e_1_3_2_2_64_1",
+    "volume-title": "Generating images from prompts using clip and stylegan",
+    "author": "Perez V.",
+    "year": "2021",
+    "unstructured": "Perez , V. Generating images from prompts using clip and stylegan , 2021 . MIT License . Perez, V. Generating images from prompts using clip and stylegan, 2021. MIT License."
+   },
+   {
+    "key": "e_1_3_2_2_65_1",
+    "volume-title": "Diversity policy gradient for sample efficient quality-diversity optimization. arXiv e-prints",
+    "author": "Pierrot T.",
+    "year": "2020",
+    "unstructured": "Pierrot , T. , Macé , V. , Cideron , G. , Beguir , K. , Cully , A. , Sigaud , O. , and Perrin-Gilbert , N. Diversity policy gradient for sample efficient quality-diversity optimization. arXiv e-prints ( 2020 ), arXiv-2006. Pierrot, T., Macé, V., Cideron, G., Beguir, K., Cully, A., Sigaud, O., and Perrin-Gilbert, N. Diversity policy gradient for sample efficient quality-diversity optimization. arXiv e-prints (2020), arXiv-2006."
+   },
+   {
+    "key": "e_1_3_2_2_66_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/2739480.2754664"
+   },
+   {
+    "key": "e_1_3_2_2_67_1",
+    "volume-title": "Proceedings of the 38th International Conference on Machine Learning ICML 2021",
+    "author": "Radford A.",
+    "year": "2021",
+    "unstructured": "Radford , A. , Kim , J. W. , Hallacy , C. , Ramesh , A. , Goh , G. , Agarwal , S. , Sastry , G. , Askell , A. , Mishkin , P. , Clark , J. , Krueger , G. , and Sutskever , I . Learning transferable visual models from natural language supervision . In Proceedings of the 38th International Conference on Machine Learning ICML 2021 ( 2021 ). Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., and Sutskever, I. Learning transferable visual models from natural language supervision. In Proceedings of the 38th International Conference on Machine Learning ICML 2021 (2021)."
+   },
+   {
+    "key": "e_1_3_2_2_68_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3449639.3459320"
+   },
+   {
+    "key": "e_1_3_2_2_69_1",
+    "volume-title": "Generating and blending game levels via quality-diversity in the latent space of a variational autoencoder. arXiv preprint arXiv:2102.12463",
+    "author": "Sarkar A.",
+    "year": "2021",
+    "unstructured": "Sarkar , A. , and Cooper , S . Generating and blending game levels via quality-diversity in the latent space of a variational autoencoder. arXiv preprint arXiv:2102.12463 ( 2021 ). Sarkar, A., and Cooper, S. Generating and blending game levels via quality-diversity in the latent space of a variational autoencoder. arXiv preprint arXiv:2102.12463 (2021)."
+   },
+   {
+    "key": "e_1_3_2_2_70_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3377930.3389822"
+   },
+   {
+    "key": "e_1_3_2_2_71_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3449639.3459321"
+   },
+   {
+    "key": "e_1_3_2_2_72_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-319-45823-6_85"
+   },
+   {
+    "key": "e_1_3_2_2_73_1",
+    "first-page": "208",
+    "volume-title": "ALIFE 2016, the Fifteenth International Conference on the Synthesis and Simulation of Living Systems",
+    "author": "Stanley K. O.",
+    "year": "2016",
+    "unstructured": "Stanley , K. O. , Cheney , N. , and Soros , L . How the strictness of the minimal criterion impacts open-ended evolution . In ALIFE 2016, the Fifteenth International Conference on the Synthesis and Simulation of Living Systems ( 2016 ), MIT Press , pp. 208 -- 215 . Stanley, K. O., Cheney, N., and Soros, L. How the strictness of the minimal criterion impacts open-ended evolution. In ALIFE 2016, the Fifteenth International Conference on the Synthesis and Simulation of Living Systems (2016), MIT Press, pp. 208--215."
+   },
+   {
+    "key": "e_1_3_2_2_74_1",
+    "volume-title": "Open-endedness: The last grand challenge you've never heard of. While open-endedness could be a force for discovering intelligence, it could also be a component of AI itself",
+    "author": "Stanley K. O.",
+    "year": "2017",
+    "unstructured": "Stanley , K. O. , Lehman , J. , and Soros , L . Open-endedness: The last grand challenge you've never heard of. While open-endedness could be a force for discovering intelligence, it could also be a component of AI itself ( 2017 ). Stanley, K. O., Lehman, J., and Soros, L. Open-endedness: The last grand challenge you've never heard of. While open-endedness could be a force for discovering intelligence, it could also be a component of AI itself (2017)."
+   },
+   {
+    "key": "e_1_3_2_2_75_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3449726.3459440"
+   },
+   {
+    "key": "e_1_3_2_2_76_1",
+    "volume-title": "Approximating gradients for differentiable quality diversity in reinforcement learning. GECCO",
+    "author": "Tjanaka B.",
+    "year": "2022",
+    "unstructured": "Tjanaka , B. , Fontaine , M. C. , Togelius , J. , and Nikolaidis , S . Approximating gradients for differentiable quality diversity in reinforcement learning. GECCO ( 2022 ). Tjanaka, B., Fontaine, M. C., Togelius, J., and Nikolaidis, S. Approximating gradients for differentiable quality diversity in reinforcement learning. GECCO (2022)."
+   },
+   {
+    "key": "e_1_3_2_2_77_1",
+    "volume-title": "pyribs: A bare-bones python library for quality diversity optimization. https://github.com/icaros-usc/pyribs",
+    "author": "Tjanaka B.",
+    "year": "2021",
+    "unstructured": "Tjanaka , B. , Fontaine , M. C. , Zhang , Y. , Sommerer , S. , Dennler , N. , and Nikolaidis , S . pyribs: A bare-bones python library for quality diversity optimization. https://github.com/icaros-usc/pyribs , 2021 . Tjanaka, B., Fontaine, M. C., Zhang, Y., Sommerer, S., Dennler, N., and Nikolaidis, S. pyribs: A bare-bones python library for quality diversity optimization. https://github.com/icaros-usc/pyribs, 2021."
+   },
+   {
+    "key": "e_1_3_2_2_78_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/TEVC.2017.2735550"
+   },
+   {
+    "key": "e_1_3_2_2_79_1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3205455.3205602"
+   },
+   {
+    "key": "e_1_3_2_2_80_1",
+    "volume-title": "Deep surrogate assisted map-elites for automated hearthstone deckbuilding. arXiv preprint arXiv:2112.03534",
+    "author": "Zhang Y.",
+    "year": "2021",
+    "unstructured": "Zhang , Y. , Fontaine , M. C. , Hoover , A. K. , and Nikolaidis , S . Deep surrogate assisted map-elites for automated hearthstone deckbuilding. arXiv preprint arXiv:2112.03534 ( 2021 ). Zhang, Y., Fontaine, M. C., Hoover, A. K., and Nikolaidis, S. Deep surrogate assisted map-elites for automated hearthstone deckbuilding. arXiv preprint arXiv:2112.03534 (2021)."
+   }
+  ],
+  "event": {
+   "name": "GECCO '23: Genetic and Evolutionary Computation Conference",
+   "location": "Lisbon Portugal",
+   "acronym": "GECCO '23",
+   "sponsor": [
+    "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+   ]
+  },
+  "container-title": [
+   "Proceedings of the Genetic and Evolutionary Computation Conference"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "https://dl.acm.org/doi/10.1145/3583131.3590389",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://dl.acm.org/doi/pdf/10.1145/3583131.3590389",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     17
+    ]
+   ],
+   "date-time": "2025-06-17T13:48:49Z",
+   "timestamp": 1750168129000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://dl.acm.org/doi/10.1145/3583131.3590389"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     7,
+     12
+    ]
+   ]
+  },
+  "references-count": 80,
+  "alternative-id": [
+   "10.1145/3583131.3590389",
+   "10.1145/3583131"
+  ],
+  "URL": "https://doi.org/10.1145/3583131.3590389",
+  "relation": {},
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2023,
+     7,
+     12
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "2023-07-12",
+    "order": 2,
+    "name": "published",
+    "label": "Published",
+    "group": {
+     "name": "publication_history",
+     "label": "Publication History"
+    }
+   }
+  ]
+ },
+ "deb": {
+  "DOI": "10.1016/s0045-7825(99)00389-8",
+  "title": [
+   "An efficient constraint handling method for genetic algorithms"
+  ],
+  "author": [
+   {
+    "given": "Kalyanmoy",
+    "family": "Deb",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Computer Methods in Applied Mechanics and Engineering"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2000,
+     6
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "186",
+  "page": "311-338"
+ },
+ "runar": {
+  "DOI": "10.1109/4235.873238",
+  "title": [
+   "Stochastic ranking for constrained evolutionary optimization"
+  ],
+  "author": [
+   {
+    "given": "T.P.",
+    "family": "Runarsson",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "family": "Xin Yao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Transactions on Evolutionary Computation"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2000
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "4",
+  "page": "284-294"
+ },
+ "mesh": {
+  "DOI": "10.1137/040603371",
+  "title": [
+   "Mesh Adaptive Direct Search Algorithms for Constrained Optimization"
+  ],
+  "author": [
+   {
+    "given": "Charles",
+    "family": "Audet",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "suffix": "Jr.",
+    "given": "J. E.",
+    "family": "Dennis",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "SIAM Journal on Optimization"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2006,
+     1
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "17",
+  "page": "188-217"
+ },
+ "comp": {
+  "DOI": "10.1137/s1052623497331373",
+  "title": [
+   "Pattern Search Methods for Linearly Constrained Minimization"
+  ],
+  "author": [
+   {
+    "given": "Robert Michael",
+    "family": "Lewis",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Virginia",
+    "family": "Torczon",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "SIAM Journal on Optimization"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2000,
+     1
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "10",
+  "page": "917-941"
+ },
+ "solis": {
+  "DOI": "10.1287/moor.6.1.19",
+  "title": [
+   "Minimization by Random Search Techniques"
+  ],
+  "author": [
+   {
+    "given": "Francisco J.",
+    "family": "Solis",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Mathematics, University of Kentucky, Lexington, Kentucky 40506"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Roger J.-B.",
+    "family": "Wets",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Mathematics, University of Kentucky, Lexington, Kentucky 40506"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Mathematics of Operations Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1981,
+     2
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "6",
+  "page": "19-30"
+ },
+ "dubins": {
+  "DOI": "10.2307/2372560",
+  "title": [
+   "On Curves of Minimal Length with a Constraint on Average Curvature, and with Prescribed Initial and Terminal Positions and Tangents"
+  ],
+  "author": [
+   {
+    "given": "L. E.",
+    "family": "Dubins",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "American Journal of Mathematics"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     1957,
+     7
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "79",
+  "page": "497"
+ },
+ "snap": {
+  "DOI": "10.1109/icra.2011.5980409",
+  "title": [
+   "Minimum snap trajectory generation and control for quadrotors"
+  ],
+  "author": [
+   {
+    "given": "Daniel",
+    "family": "Mellinger",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Vijay",
+    "family": "Kumar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "2011 IEEE International Conference on Robotics and Automation"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2011,
+     5
+    ]
+   ]
+  },
+  "type": "proceedings-article",
+  "page": "2520-2525"
+ },
+ "uav": {
+  "DOI": "10.1007/978-3-319-28872-7_37",
+  "title": [
+   "Polynomial Trajectory Planning for Aggressive Quadrotor Flight in Dense Indoor Environments"
+  ],
+  "author": [
+   {
+    "given": "Charles",
+    "family": "Richter",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Adam",
+    "family": "Bry",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nicholas",
+    "family": "Roy",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "Springer Tracts in Advanced Robotics",
+   "Robotics Research"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "type": "book-chapter",
+  "page": "649-666"
+ },
+ "fast": {
+  "DOI": "10.1109/lra.2019.2927938",
+  "title": [
+   "Robust and Efficient Quadrotor Trajectory Generation for Fast Autonomous Flight"
+  ],
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-4125-7481",
+    "authenticated-orcid": false,
+    "given": "Boyu",
+    "family": "Zhou",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6513-374X",
+    "authenticated-orcid": false,
+    "given": "Fei",
+    "family": "Gao",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4180-1333",
+    "authenticated-orcid": false,
+    "given": "Luqi",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3050-6574",
+    "authenticated-orcid": false,
+    "given": "Chuhao",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5573-2909",
+    "authenticated-orcid": false,
+    "given": "Shaojie",
+    "family": "Shen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": [
+   "IEEE Robotics and Automation Letters"
+  ],
+  "published": {
+   "date-parts": [
+    [
+     2019,
+     10
+    ]
+   ]
+  },
+  "type": "journal-article",
+  "volume": "4",
+  "page": "3529-3536"
+ }
+}

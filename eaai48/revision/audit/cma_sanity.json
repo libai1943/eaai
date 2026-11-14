@@ -1,0 +1,103 @@
+{
+  "version": "4.5.0",
+  "objective": "Householder-rotated positive quadratic; condition number 1000; optimum x=0.37.",
+  "scope": "Functional convergence check only. Initialization, boundary handling and stopping conventions differ; this does not certify equivalence of constrained planning runs.",
+  "rows": [
+    {
+      "dimension": 7,
+      "seed": 101,
+      "native_best": 3.1080708126355525e-25,
+      "pycma_best": 1.693176716497571e-14,
+      "pycma_evaluations": 3072,
+      "budget": 12000
+    },
+    {
+      "dimension": 7,
+      "seed": 211,
+      "native_best": 6.744032206513952e-25,
+      "pycma_best": 7.989722707244315e-14,
+      "pycma_evaluations": 3432,
+      "budget": 12000
+    },
+    {
+      "dimension": 7,
+      "seed": 307,
+      "native_best": 4.1663676670003e-25,
+      "pycma_best": 4.81248453534518e-14,
+      "pycma_evaluations": 3216,
+      "budget": 12000
+    },
+    {
+      "dimension": 7,
+      "seed": 401,
+      "native_best": 3.9467774377987683e-25,
+      "pycma_best": 4.0967025751058596e-14,
+      "pycma_evaluations": 3216,
+      "budget": 12000
+    },
+    {
+      "dimension": 9,
+      "seed": 101,
+      "native_best": 1.5364534189636798e-21,
+      "pycma_best": 4.905644867085005e-14,
+      "pycma_evaluations": 4224,
+      "budget": 12000
+    },
+    {
+      "dimension": 9,
+      "seed": 211,
+      "native_best": 1.2383427531181266e-21,
+      "pycma_best": 8.451433863042977e-14,
+      "pycma_evaluations": 4680,
+      "budget": 12000
+    },
+    {
+      "dimension": 9,
+      "seed": 307,
+      "native_best": 1.588990284918715e-21,
+      "pycma_best": 1.774457023787227e-13,
+      "pycma_evaluations": 4320,
+      "budget": 12000
+    },
+    {
+      "dimension": 9,
+      "seed": 401,
+      "native_best": 1.661313157703686e-21,
+      "pycma_best": 1.9135225947695766e-13,
+      "pycma_evaluations": 4200,
+      "budget": 12000
+    },
+    {
+      "dimension": 13,
+      "seed": 101,
+      "native_best": 2.0862898462857477e-15,
+      "pycma_best": 1.0074976043047354e-13,
+      "pycma_evaluations": 6696,
+      "budget": 12000
+    },
+    {
+      "dimension": 13,
+      "seed": 211,
+      "native_best": 2.0481043215627736e-15,
+      "pycma_best": 2.415545758689466e-13,
+      "pycma_evaluations": 6888,
+      "budget": 12000
+    },
+    {
+      "dimension": 13,
+      "seed": 307,
+      "native_best": 2.6975749455997832e-15,
+      "pycma_best": 1.8334363127484678e-13,
+      "pycma_evaluations": 7752,
+      "budget": 12000
+    },
+    {
+      "dimension": 13,
+      "seed": 401,
+      "native_best": 3.069975786702235e-15,
+      "pycma_best": 6.341906717506334e-14,
+      "pycma_evaluations": 6840,
+      "budget": 12000
+    }
+  ]
+}

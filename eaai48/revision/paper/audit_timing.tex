@@ -1,0 +1,21 @@
+\subsection{Planning and independently verified delivery time}
+
+The extended timing test uses cases 02, 05 and 09 of each family, four search rules and three interleaved repeats per rule, giving 144 timed runs on one logical processor. Planning time includes process startup, decoding, scoring and all in-process replay. Independent acceptance is measured separately after reading the returned motion, with task data already loaded. Total wall time is their sum. The table gives median and 90th-percentile wall seconds for RegionCovOpt across the nine runs of each robot; the repository gives all controls and each case's best-of-three process CPU time.
+
+\begin{center}\begin{minipage}{\linewidth}\centering\small
+
+\TableHere{Planning and independent acceptance wall times in seconds. Each entry is median / 90th percentile.}
+
+\begin{tabular}{@{}lrrr@{}}\toprule Robot & Planning & Acceptance & Total\\\midrule
+
+Car & 0.517 / 0.628 & 0.004 / 0.007 & 0.530 / 0.632\\
+
+Flight & 0.212 / 0.273 & 0.037 / 0.045 & 0.249 / 0.309\\
+
+Arm & 0.271 / 0.333 & 0.017 / 0.018 & 0.287 / 0.352\\
+
+Articulated & 0.406 / 0.426 & 0.406 / 0.413 & 0.809 / 0.830\\
+
+\bottomrule\end{tabular}\end{minipage}\end{center}
+
+Independent articulated replay is comparatively expensive because the Python verifier integrates every stroke with 400 RK4 steps and checks both bodies. Its cost should be distinguished from the compiled planner's runtime when assessing a delivered motion. The timings describe open-loop model-based planning and numerical acceptance; hardware execution is a separate validation question.

@@ -1,0 +1,41 @@
+% Typeset page furniture shared by the full-width title and two-column text.
+\newcommand{\JournalName}{Engineering Applications of Artificial Intelligence}
+\newcommand{\JournalURL}{https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence}
+\definecolor{JournalBlue}{RGB}{0,128,172}
+\hypersetup{colorlinks=true,citecolor=JournalBlue,linkcolor=JournalBlue,urlcolor=JournalBlue,
+  pdfauthor={Bai Li},pdftitle={\ArticleTitle}}
+\makeatletter
+\def\ps@journal{\def\@oddhead{\fontsize{6.4}{8}\selectfont\itshape B. Li\hfil\JournalName}
+  \let\@evenhead\@oddhead\def\@oddfoot{\hfil\fontsize{6.4}{8}\selectfont\thepage\hfil}\let\@evenfoot\@oddfoot}
+\def\ps@journalfirst{\def\@oddhead{\hfil\fontsize{7}{9}\selectfont\color{JournalBlue}\JournalName\enspace---\enspace Research manuscript\hfil}\let\@evenhead\@oddhead\def\@oddfoot{}\let\@evenfoot\@oddfoot}
+\makeatother
+\newcommand{\EAFront}{%
+  \par\noindent\begin{minipage}[t]{\textwidth}
+  \setlength{\unitlength}{1bp}%
+  \noindent\begin{picture}(520.1,82)
+    \put(0,81.7){\rule{449.3bp}{.45bp}}
+    \put(0,9.5){\includegraphics[width=59.55bp,height=65.35bp]{masthead/elsevier.png}}
+    \put(72.3,9.5){\color[gray]{.9}\rule{377bp}{65.35bp}}
+    \put(72.3,67.4){\makebox(377,6){\fontsize{8}{9}\selectfont Contents lists available at \href{https://www.sciencedirect.com/}{ScienceDirect}}}
+    \put(72.3,39.6){\makebox(377,10){\fontsize{13.5}{16}\selectfont\JournalName}}
+    \put(72.3,11.7){\makebox(377,6){\fontsize{7.5}{9}\selectfont journal homepage: \href{\JournalURL}{www.elsevier.com/locate/engappai}}}
+    \put(460.6,9.5){\includegraphics[width=59.5bp,height=71.6bp]{masthead/journal.png}}
+    \put(0,0){\rule{520.1bp}{2.35bp}}
+  \end{picture}\par
+  \vskip26bp\raggedright{\fontsize{13.5}{16.4}\selectfont\ArticleTitle\par}
+  \vskip4.3bp{\fontsize{10.3}{12.2}\selectfont Bai Li\par}
+  \vskip2.3bp{\fontsize{6.45}{8.2}\selectfont\itshape School of Information and Electronic Engineering, East China Normal University, Shanghai~200241, China\par}
+  \vskip9bp\hrule height .4pt\vskip7bp
+  \noindent\begin{minipage}[t]{.256\linewidth}
+      {\fontsize{8}{10}\selectfont A R T I C L E\enspace I N F O\par}
+      \vskip5.0bp\hrule height .45pt\vskip2.5bp
+      {\fontsize{6.4}{8.2}\selectfont\textit{Keywords:}\par\KeywordsBlock\par}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{.685\linewidth}
+      {\fontsize{8}{10}\selectfont A B S T R A C T\par}
+      \vskip5.0bp\hrule height .45pt\vskip2.5bp
+      \fontsize{8}{10.1}\selectfont\rightskip=0pt\leftskip=0pt\parfillskip=0pt plus 1fil\ArticleAbstract\par
+  \end{minipage}
+  \par\vskip7bp\hrule height .45pt
+  \vskip8bp\end{minipage}\par}
+

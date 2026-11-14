@@ -1,0 +1,51 @@
+% Journal trim, type scale and column grid measured from the reference issue.
+\geometry{paperwidth=210mm,paperheight=280mm,left=37.59bp,right=37.59bp,top=54.5bp,bottom=44bp,headheight=9bp,headsep=11bp,footskip=20bp}
+\setlength{\columnsep}{18bp}
+\setlength{\parindent}{12bp}
+\renewcommand{\bibfont}{\fontsize{6.4}{8.1}\selectfont}
+\setlength{\bibsep}{1.8bp plus .4bp minus .25bp}
+\setlength{\emergencystretch}{1em}
+\renewcommand{\normalsize}{\fontsize{8}{10.15}\selectfont}
+\renewcommand{\small}{\fontsize{7.1}{8.7}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{6.4}{8.0}\selectfont}
+\makeatletter
+\@ifundefined{T@TU}{\input{tuenc.def}}{}
+\DeclareFontFamily{TU}{JournalCharis}{}
+\DeclareFontShape{TU}{JournalCharis}{m}{n}{<->"[fonts/CharisSIL_400Regular.ttf]:mapping=tex-text"}{}
+\DeclareFontShape{TU}{JournalCharis}{m}{it}{<->"[fonts/CharisSIL_400Regular_Italic.ttf]:mapping=tex-text"}{}
+\DeclareFontShape{TU}{JournalCharis}{b}{n}{<->"[fonts/CharisSIL_700Bold.ttf]:mapping=tex-text"}{}
+\DeclareFontShape{TU}{JournalCharis}{b}{it}{<->"[fonts/CharisSIL_700Bold_Italic.ttf]:mapping=tex-text"}{}
+\DeclareFontShape{TU}{JournalCharis}{bx}{n}{<->ssub*JournalCharis/b/n}{}
+\DeclareFontShape{TU}{JournalCharis}{bx}{it}{<->ssub*JournalCharis/b/it}{}
+\renewcommand{\encodingdefault}{TU}\renewcommand{\rmdefault}{JournalCharis}
+\renewcommand{\sfdefault}{JournalCharis}\renewcommand{\ttdefault}{JournalCharis}
+\makeatother
+\setlength{\textfloatsep}{8bp plus 2bp minus 2bp}
+\setlength{\dbltextfloatsep}{8bp plus 2bp minus 2bp}
+\setlength{\floatsep}{6bp plus 2bp minus 1bp}
+\setlength{\dblfloatsep}{7bp plus 2bp minus 1bp}
+\renewcommand{\topfraction}{.93}\renewcommand{\dbltopfraction}{.93}
+\renewcommand{\textfraction}{.04}\renewcommand{\floatpagefraction}{.72}\renewcommand{\dblfloatpagefraction}{.72}
+\setcounter{topnumber}{3}\setcounter{dbltopnumber}{2}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{\z@}{-10bp plus -1bp minus -1bp}{4bp}{\normalfont\normalsize\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}{-8bp plus -1bp minus -1bp}{4bp}{\normalfont\normalsize\itshape}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}{-6bp plus -1bp minus -1bp}{2bp}{\normalfont\normalsize\itshape}}
+\renewcommand{\@seccntformat}[1]{\csname the#1\endcsname.\enspace}
+\renewcommand{\figurename}{Fig.}
+\newcommand{\journalcaption}[2]{\par\vskip3bp\noindent\parbox{\linewidth}{\normalfont\fontsize{6.8}{8.4}\selectfont\textbf{#1.}\enspace#2\par}\par}
+\newcommand{\jtablecaption}[2]{\par\noindent\parbox{\linewidth}{\normalfont\fontsize{6.8}{8.4}\selectfont\textbf{#1}\par#2\par}\par\vskip2.7bp}
+\renewenvironment{figure}[1][tbp]{\@float{figure}[#1]\let\@makecaption\journalcaption\centering}{\end@float}
+\renewenvironment{figure*}[1][tp]{\@dblfloat{figure}[#1]\let\@makecaption\journalcaption\centering}{\end@dblfloat}
+\renewenvironment{table}[1][tbp]{\@float{table}[#1]\let\@makecaption\jtablecaption\centering\small\setlength{\tabcolsep}{2.6bp}}{\end@float}
+\renewenvironment{table*}[1][tp]{\@dblfloat{table}[#1]\let\@makecaption\jtablecaption\centering\small\setlength{\tabcolsep}{3bp}}{\end@dblfloat}
+\newcommand{\TableHere}[1]{\def\@captype{table}\let\@makecaption\jtablecaption\caption{#1}}
+\makeatother
+\newcommand{\Eq}[2]{\par\addvspace{4bp}\refstepcounter{equation}\label{eq:#1}%
+ \noindent\makebox[\linewidth][c]{$\displaystyle #2$}\makebox[0pt][r]{(\theequation)}\par\addvspace{4bp}}
+\newlength{\problemindent}\setlength{\problemindent}{8bp}
+\newlength{\problemop}\setlength{\problemop}{53bp}
+\newcommand{\ProbRow}[3]{\par\addvspace{3bp}\refstepcounter{equation}\label{eq:#1}%
+ \noindent\hspace*{\problemindent}\makebox[\problemop][l]{$\displaystyle #2$}%
+ \makebox[0pt][l]{$\displaystyle #3$}\hfill(\theequation)\par}
+

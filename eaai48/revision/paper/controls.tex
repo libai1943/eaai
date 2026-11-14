@@ -1,0 +1,30 @@
+\begin{table}[htbp]\centering\small\caption{Independently accepted runs. Each family contributes twelve scenes and three seeds.}\begin{tabular}{lrrrrr}\toprule
+Method & Car & Aerial & Arm & Trailer & Total\\\midrule
+RegionCovOpt & 34 & 36 & 36 & 36 & 142\\
+Particle swarm & 35 & 36 & 34 & 36 & 141\\
+Full-covariance CMA-ES & 32 & 36 & 36 & 36 & 140\\
+Differential evolution & 36 & 36 & 36 & 36 & 144\\
+Gaussian cross-entropy & 32 & 36 & 36 & 36 & 140\\
+FD--BFGS & 34 & 36 & 36 & 36 & 142\\
+Coordinate polling & 29 & 36 & 35 & 36 & 136\\
+Uniform sampling & 36 & 36 & 36 & 36 & 144\\
+Poll/difference precursor & 36 & 36 & 36 & 36 & 144\\
+\bottomrule\end{tabular}\end{table}
+\begin{table}[htbp]\centering\small\caption{Paired primary costs relative to each control. Negative percentages favor RegionCovOpt. A successful motion outranks a failure in the win count.}\begin{tabular}{lrrrrr}\toprule
+Control & Joint pairs & Median (\%) & Wins & Losses & Ties\\\midrule
+Particle swarm & 139 & -0.23 & 95 & 45 & 4\\
+Full-covariance CMA-ES & 139 & -0.43 & 105 & 36 & 3\\
+Differential evolution & 142 & -0.42 & 97 & 44 & 3\\
+Gaussian cross-entropy & 140 & -3.26 & 122 & 20 & 2\\
+FD--BFGS & 140 & -0.32 & 96 & 48 & 0\\
+Coordinate polling & 136 & -4.74 & 116 & 26 & 2\\
+Uniform sampling & 142 & -6.27 & 125 & 19 & 0\\
+Poll/difference precursor & 142 & -0.06 & 79 & 65 & 0\\
+\bottomrule\end{tabular}\end{table}
+\begin{table}[htbp]\centering\small\caption{Median paired cost change (percent) within each family; jointly feasible pairs only.}\begin{tabular}{lrrrr}\toprule
+Control & Car & Aerial & Arm & Trailer\\\midrule
+Particle swarm & +0.06 & -0.09 & -27.88 & -0.88\\
+Full-covariance CMA-ES & -0.01 & -8.81 & -24.64 & +0.12\\
+Differential evolution & +2.57 & -8.37 & -27.71 & -0.33\\
+FD--BFGS & -3.24 & -24.24 & -0.35 & -0.03\\
+\bottomrule\end{tabular}\end{table}

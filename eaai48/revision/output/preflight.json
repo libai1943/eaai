@@ -1,0 +1,27 @@
+{
+  "profile_cases": 48,
+  "profile_atlas_pages": 24,
+  "pages": 11,
+  "author": "Bai Li",
+  "cited_published_works": 56,
+  "sections": [
+    "Introduction",
+    "Related Works",
+    "Problem formulation",
+    "Methodology",
+    "Experiments and discussion",
+    "Conclusion"
+  ],
+  "right_aligned_equation_tags": 36,
+  "figure_size_pt": [
+    0.0,
+    0.0,
+    526.0,
+    680.0
+  ],
+  "verified_runs": 2016,
+  "plate_png_size": [
+    1389,
+    1795
+  ]
+}

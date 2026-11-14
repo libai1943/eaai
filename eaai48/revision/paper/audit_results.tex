@@ -1,0 +1,56 @@
+\subsection{Matched controls and contribution attribution}
+
+The regional update is compared with three additional CMA controls. All use twelve offspring, six log-weighted parents, an initial scale of 0.23, the same scale limits and the same learning rates. Initial means average up to four best members in the applicable domain. Matched global CMA has one distribution; the two-region controls use the same normalized regional coordinates as RegionCovOpt and either alternate regions or use its incumbent/reservation allocation. These three controls draw every offspring from the distribution mean. They isolate regional search from the extra mean, poll, refresh and archive-centered proposals.
+
+\begin{center}\begin{minipage}{\linewidth}\centering\small
+
+\TableHere{Matched controls on the original 144 paired tasks and 128 held-out pairs. $\Delta J$ compares RegionCovOpt with the indicated control, using jointly accepted runs.}
+
+\begin{tabular}{@{}lrrrr@{}}\toprule
+
+Control & \multicolumn{2}{c}{Original} & \multicolumn{2}{c}{Held out}\\
+
+ & Accepted & $\Delta J$ (\%) & Accepted & $\Delta J$ (\%)\\\midrule
+
+RegionCovOpt & 142 & +0.000 & 128 & +0.000\\
+
+Original CMA & 140 & -0.432 & 128 & -0.623\\
+
+Matched global & 141 & -0.171 & 127 & -0.509\\
+
+Regional, equal & 142 & -0.352 & 128 & -0.544\\
+
+Regional, adaptive & 144 & -0.032 & 128 & -0.035\\
+
+DE & 144 & -0.424 & 128 & -1.364\\
+
+Uniform & 144 & -6.270 & 128 & -8.744\\
+
+\bottomrule\end{tabular}\end{minipage}\end{center}
+
+In the original panel, the median improvements over matched global CMA are 28.49\% for flight and 27.98\% for the arm. With independent regional distributions and adaptive allocation already present, the residual median improvement is only 0.032\% overall. Thus the main empirical gain is associated with preserving regional distributions; the special proposals add comparatively little. The global-to-regional comparison changes the selector normalization and the domain-specific initial means as part of the region construction, so it does not isolate these two effects individually.
+
+\subsection{Independent selection and held-out task perturbations}
+
+A fixed generator creates twelve validation tasks and sixteen held-out tasks by perturbing endpoints and obstacle geometry from separate template indices. Flight opening locations and sizes vary; arm obstacles and terminal joints vary; parking starts and obstacle positions vary; docking starts and aisle obstacles vary. These are unseen geometric instances within the four declared motion-family templates. The generation rules, seeds and all inputs are retained in the repository.
+
+The validation experiment uses five seeds and five fixed candidates: the original method, no archive poll, diagonal covariance, balanced allocation before first feasibility, and a combined diagonal/no-poll/balanced-before-feasibility variant. Selection first maximizes independent acceptance and then minimizes the median ratio to the best accepted cost in each pair. The original method returns 59 of 60 motions; the other candidates return 57, 57, 56 and 57, respectively. It is frozen before evaluating the sixteen held-out tasks with eight new seeds. The selected method admits all 128 held-out motions. The matched global control admits 127; both regional controls admit 128.
+
+The original ablations favor simpler variants on several criteria, whereas the independent validation favors the original rule by acceptance count. This reversal gives no basis for declaring the poll or full covariance universally necessary. The practical result is a useful regional-search core with a small, task-dependent effect from extra proposals. A future implementation can retain the simpler regional Gaussian control when those extras do not improve its own validation tasks.
+
+Confidence intervals resample complete scenes within each robot family, keeping all seeds of a scene together. They are percentile intervals from 4,000 resamples and describe paired costs conditional on joint acceptance. They are exploratory intervals without multiplicity correction.
+
+For the held-out comparison with matched global CMA, the median change is -0.509\%, with a 95\% interval of [-18.400,-0.070]\%.
+
+For the held-out comparison with adaptively allocated regional CMA, the median change is -0.035\%, with a 95\% interval of [-0.103,0.011]\%.
+
+The 24 common initial evaluations already yield an oracle-feasible motion in 125 of the original 144 task--seed pairs. This separates the representation benefit from subsequent optimization. The repository reports first-feasible evaluations, success-versus-budget records and complete cost distributions; intermediate budget curves denote oracle acceptance, while the final costs in the tables require independent replay.
+
+\subsection{Representation scope and coverage}
+
+The common interface accepts a decoder and a function-value evaluator. Each decoder supplies particular task knowledge. Parking uses bounded-curvature connections with a limited intermediate-pose construction. Flight assumes an ordered sequence of rectangular wall openings. The arm uses velocity-basis or a small set of joint-space knot constructions. Docking assumes aligned terminal articulation and prescribed forward/reverse stroke sequences. General maps with additional route branches, arbitrary joint constraints or different gear sequences can require new families. These requirements explain both the early feasibility of uniform sampling and the scope of transfer to another robot.
+
+The independent-refresh theorem concerns positive-mass feasible subsets of those represented families. At a budget of 960, the original schedule provides twenty protected refreshes after initialization, ten per region. Without a lower bound on the near-optimal probability mass, its asymptotic result supplies no numerical guarantee for this finite budget. Finite-budget value is therefore assessed by the matched experiments above.
+
+
+The C++ global CMA path is additionally checked against pycma 4.5.0 on twelve rotated-quadratic tests (dimensions 7, 9 and 13, condition number $10^3$). Both implementations reach objective error below $10^{-8}$ within 12,000 evaluations. This is a functional convergence check; the boundary handling, initial means and stopping conventions differ. The detailed records are included with the supplementary controls.

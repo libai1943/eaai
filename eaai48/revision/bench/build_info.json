@@ -1,0 +1,12 @@
+{
+  "compiler": "g++.exe (GCC) 16.2.0",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-DEAAI_ARM_OVERTRAVEL",
+    "-DEAAI_SWEEP",
+    "-static"
+  ],
+  "platform": "Windows x64"
+}
