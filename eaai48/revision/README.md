@@ -1,6 +1,6 @@
 # RegionCovOpt · EAAI working manuscript and reproduction package
 
-The paper is in output/pdf/RegionCovOpt_EAAI.pdf. The six sections are Introduction, Related Works, Problem formulation, Methodology, Experiments and discussion, and Conclusion. Appendix A states the learning rates; Appendix B proves the conditional archive-cost convergence theorem. Algorithm 1 and Fig. 1 are in Section 4. The title is RegionCovOpt: A Metaheuristic Optimizer for Endpoint-Conditioned Robotic Motion Planning.
+The paper is in output/pdf/RegionCovOpt_EAAI.pdf. The six sections are Introduction, Related Works, Problem formulation, Methodology, Experiments and discussion, and Conclusion. Appendix A states the learning rates; Appendix B proves the conditional archive-cost convergence theorem. Algorithm 1 and Fig. 1 are in Section 4. The title is RegionCovOpt: An Integrated Metaheuristic Optimizer for Generic Robotic Motion Planning.
 
 ## Reproduce a motion
 

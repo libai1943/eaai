@@ -1,6 +1,6 @@
 # RegionCovOpt
 
-Research code and complete experimental records for **RegionCovOpt: A Metaheuristic Optimizer for Endpoint-Conditioned Robotic Motion Planning**, by **Bai Li**.
+Research code and complete experimental records for **RegionCovOpt: An Integrated Metaheuristic Optimizer for Generic Robotic Motion Planning**, by **Bai Li**.
 
 This repository accompanies a research manuscript for Engineering Applications of Artificial Intelligence. It is not a statement of acceptance or publication.
 
@@ -13,6 +13,7 @@ The search engine is shared across four adapters. Their motion families contain 
 ## Manuscript and figures
 
 - [Manuscript](paper/RegionCovOpt_EAAI.pdf)
+- [Integrated search workflow (Fig. 1)](figures/scheme.pdf)
 - [All 48 state/control profiles](paper/RegionCovOpt_profiles.pdf)
 - [Parking plate](figures/parking.pdf), [flight plate](figures/uav.pdf), [arm plate](figures/arm.pdf), [articulated docking plate](figures/trailer.pdf)
 - [Twelve representative scenes](figures/representative.pdf) with forward and reverse travel and gear changes
